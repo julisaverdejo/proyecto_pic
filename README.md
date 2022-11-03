@@ -157,7 +157,7 @@ module ram_reg(clk, rst, we, addr, din, dout);
 endmodule 
 ```
 
-**Código 1: ram_reg.v **
+**Codigo 1: ram_reg.v**
 
 #### - Testbench
 
@@ -207,7 +207,7 @@ module tb_ram_reg;
 endmodule
 ```
 
-**Código 2: tb_ram_reg.v **
+**Codigo 2: tb_ram_reg.v**
 
 #### - Esquemático
 
@@ -248,7 +248,7 @@ module pc(clk, pc_in, pc_control, pc_stack, pc_out);
 endmodule
 ```
 
-**Código 1: pv.v **
+**Codigo 1: pv.v**
 
 #### - Testbench
 
