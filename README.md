@@ -155,7 +155,6 @@ module ram_reg(clk, rst, we, addr, din, dout);
 	
 	assign dout = ram[addr_reg];
 endmodule 
-
 ```
 
 **Código 1: ram_reg.v **
@@ -212,13 +211,267 @@ endmodule
 
 #### - Esquemático
 
-Por agregar
+<img src="imagenes\C0_ram_diagrama.png" alt="C0_ram_diagrama" style="zoom:40%;" />
 
 #### - Simulación
 
 <img src="imagenes\B0_ram_simu.png" alt="B0_ram_simu" style="zoom:90%;" />
 
 
+
+### 4.2. Program Counter
+
+#### - Código
+
+* **Descripción:** 
+
+```verilog
+module pc(clk, pc_in, pc_control, pc_stack, pc_out);
+	// I/O declaration
+	input clk,                  // Ciclo de instruccion 1 uS.
+	input [7:0] pc_in,          // Datos provenientes de la ALU (saltos).
+	input [1:0] pc_control,     // Señales de control para el PC.
+    input [8:0] pc_stack,       // Datos provenientes de la STACK.
+	output reg [8:0] pc_out = 0 // Valor de salida (memoria y stack). 
+
+	// Description
+	always @(posedge clk) 
+	begin
+	   case(pc_control)
+		  'b00: pc_out = 0;           // Reset.
+		  'b01: pc_out = pc_out + 1;  // PC + 1.
+		  'b10: pc_out = pc_in;       // Cargar valor de ALU en PC.
+		  'b11: pc_out = pc_stack;    // Cargar valor de STACK.
+		  default: pc_out = 0;        // Default Reset.
+	  endcase 
+	end
+endmodule
+```
+
+**Código 1: pv.v **
+
+#### - Testbench
+
+```verilog
+`timescale 1ns / 100ps
+module tb_pc();
+	reg  CLK_TB;
+	reg  [7:0] IN_TB;
+	reg  [1:0] CONTROL_TB;
+	reg  [8:0] STACK_TB;
+	wire [8:0] OUT_TB;
+  
+	pc DUT (.clk(CLK_TB), .pc_in(IN_TB), .pc_control(CONTROL_TB), .pc_stack(STACK_TB), .pc_out(OUT_TB));
+
+	integer i;
+	
+initial
+begin
+	CLK_TB = 1;  
+	IN_TB= 'h25;
+	STACK_TB= 'hff;
+   
+	for (i=0; i <5; i=i+1) begin
+		CONTROL_TB='b01;     
+		#500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB; 
+	end
+   
+	CONTROL_TB='b11;  #500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB;
+	CONTROL_TB='b00;  #500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB; 
+	CONTROL_TB='b10;  #500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB;
+end
+  
+ initial begin
+  $dumpvars;
+  $dumpfile("dump.vcd");
+ end  
+endmodule
+```
+
+**Código 2: tb_pc.v **
+
+#### - Esquemático
+
+<img src="imagenes\C1_pc_diagram.PNG" alt="C1_pc_diagram" style="zoom:67%;" />
+
+#### - Simulación
+
+<img src="imagenes\B1_pc_simu.PNG" alt="B1_pc_simu" style="zoom:50%;" />
+
+### 4.3. ALU
+
+#### - Código
+
+* **Descripción:** 
+
+```verilog
+// Code your design here
+module alu(
+	input [7:0] A,B,  // ALU 8-bit Entradas                 
+	input [3:0] ALU_Sel,// ALU Selección operación
+	output [7:0] ALU_Out, // ALU 8-bit Salidas
+	output CarryOut // Indicador Carry Out 
+);
+	reg [7:0] ALU_Result;
+	wire [8:0] tmp;
+	assign ALU_Out = ALU_Result; // Salida ALU 
+	assign tmp = {1'b0,A} + {1'b0,B};
+	assign CarryOut = tmp[8]; // Indicador Carryout}
+	
+    always @(*) begin
+        case(ALU_Sel)
+        4'b0000: // Suma
+           ALU_Result = A + B ; 
+        4'b0001: // Rsta
+           ALU_Result = A - B ;
+        4'b0010: // Multiplicación
+           ALU_Result = A * B;
+        4'b0011: // División
+           ALU_Result = A/B;
+        4'b0100: // Desplazamiento a la izquierda
+           ALU_Result = A<<1;
+         4'b0101: // Desplazamiento a la derecha 
+           ALU_Result = A>>1;
+         4'b0110: // Girar izquierda
+           ALU_Result = {A[6:0],A[7]};
+         4'b0111: // Girar derecha
+           ALU_Result = {A[0],A[7:1]};
+          4'b1000: //  AND
+           ALU_Result = A & B;
+          4'b1001: //  OR
+           ALU_Result = A | B;
+          4'b1010: //  XOR 
+           ALU_Result = A ^ B;
+          4'b1011: //  NOR
+           ALU_Result = ~(A | B);
+          4'b1100: // NAND 
+           ALU_Result = ~(A & B);
+          4'b1101: // XNOR
+           ALU_Result = ~(A ^ B);
+          4'b1110: // Comparación mayor
+           ALU_Result = (A>B)?8'd1:8'd0 ;
+          4'b1111: // Comparación resultado   
+            ALU_Result = (A==B)?8'd1:8'd0 ;
+          default: ALU_Result = A + B ; 
+        endcase
+    end
+endmodule
+```
+
+**Código 1: alu.v **
+
+#### - Testbench
+
+```verilog
+// Code your testbench here
+// or browse Examples
+ `timescale 1ns / 100ps  
+
+module tb_alu;
+//Inputs
+ reg[7:0] A,B;
+ reg[3:0] ALU_Sel;
+
+//Outputs
+ wire[7:0] ALU_Out;
+ wire CarryOut;
+ // Verilog code for ALU
+ integer i;
+ alu test_unit(
+            A,B,  // ALU 8-bit Entradas                 
+            ALU_Sel,// ALU Selección
+            ALU_Out, // ALU 8-bit Salida
+            CarryOut // Indicador Carry Out
+     );
+    initial begin
+    // mantener el estado de reinicio durante 100 ns.
+      A = 8'h0A;
+      B = 4'h02;
+      ALU_Sel = 4'h0;
+      
+      for (i=0;i<=15;i=i+1)
+      begin
+       ALU_Sel = ALU_Sel + 8'h01;
+       #10;
+      end;
+      A = 8'hF6;
+      B = 8'h0A;
+    end
+
+initial begin
+  $dumpvars;
+  $dumpfile("dump.vcd");
+ end  
+endmodule
+```
+
+**Código 2: tb_alu.v **
+
+#### - Esquemático
+
+Por agregar
+
+#### - Simulación
+
+<img src="imagenes\B2_alu_simu.png" alt="B2_alu_simu" style="zoom:80%;" />
+
+
+
+
+
+### 4.3. MUX
+
+#### - Código
+
+* **Descripción:** 
+
+```verilog
+module alu_mux_2_to_1 (RAM, SFR, SEL, alu);
+input [7:0]RAM, SFR;
+input SEL;
+output [7:0]alu;
+
+assign alu=SEL?RAM:SFR; //SEL=1(RAM) & SEL=0(SFR)
+
+endmodule
+```
+
+**Código 1: mux.v **
+
+#### - Testbench
+
+```verilog
+module testbench();
+  reg [7:0]RAM, SFR;
+  reg SEL;
+  wire [7:0]alu;
+  
+  alu_mux_2_to_1 dut(RAM,SFR,SEL,alu);
+  initial begin
+    repeat(5) 
+      begin
+       RAM = $random;
+       SFR = $random;
+       SEL = $random;
+      #2ns;
+   	  end
+  end
+  initial begin
+    $monitor("RAM=%b SFR=%b SEL=%b alu=%b", RAM,SFR,SEL,alu);
+  end
+endmodule
+
+```
+
+**Código 2: tb_mux.v **
+
+#### - Esquemático
+
+<img src="imagenes\C2_mux_diagram.PNG" alt="C2_mux_diagram" style="zoom:100%;" />
+
+#### - Simulación
+
+<img src="imagenes\B2_mux_simu.PNG" alt="B2_mux_simu" style="zoom:120%;" />
 
 ## 5. Definiciones
 
@@ -243,3 +496,6 @@ Por agregar
 11. Implementación del PIC16F84 en verilog por sumio-morioka en el siguiente [enlace](https://github.com/sumio-morioka/cqpic).
 12. Single Port RAM Intel [enlace](https://www.intel.com/content/www/us/en/support/programmable/support-resources/design-examples/horizontal/ver-single-port-ram.html)
 13. Single Port RAM Xilinx [enlace](https://docs.xilinx.com/r/en-US/ug901-vivado-synthesis/Single-Port-Block-RAM-with-Resettable-Data-Output-Verilog)
+14. ALU de 4 bits para realizar 8 operaciones lógicas [enlace](https://programmerclick.com/article/8145851218/).
+15. Verilog code for a simple ALU [enlace](https://verilogcodes.blogspot.com/2015/10/verilog-code-for-simple-alu.html).
+16. Simple Flip-flop implementation [enlace](https://www.fpga4student.com/2017/02/verilog-code-for-d-flip-flop.html).
