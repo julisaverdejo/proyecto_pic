@@ -147,9 +147,9 @@ module ram_reg(clk, rst, we, addr, din, dout);
 			for(i=0; i<24; i=i+1)
 				ram[i] <= 0;
 		end
-        if (we) begin
+		if (we) begin
 			ram[addr] <= din;
-        end
+		end
 		addr_reg <= addr;
 	end
 	
