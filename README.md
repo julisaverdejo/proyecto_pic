@@ -123,12 +123,13 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 
 ### 4.1. Módulo RAM
 
-#### - Código
+- Código
+  * **Descripción:** Módulo RAM de un solo puerto con reset síncrono e inicialización a ceros con prioridad de escritura.
 
-* **Descripción:** Módulo RAM de un solo puerto con reset síncrono e inicialización a ceros con prioridad de escritura.
 
 ```verilog
 module ram_reg(clk, rst, we, addr, din, dout);
+    
 	// I/O declaration
 	input  clk;
 	input  rst;
@@ -157,14 +158,15 @@ module ram_reg(clk, rst, we, addr, din, dout);
 endmodule 
 ```
 
-**Codigo 1: ram_reg.v**
+**Código:**
 
-#### - Testbench
+ - Testbench
 
 ```verilog
 // Time Unit = 1ns, precision = 100ps = 1/10 ns
 `timescale 1 ns / 100 ps  
 module tb_ram_reg; 
+    
 	// Aux signals for testbench
 	reg  clk;
 	reg  rst;
@@ -207,15 +209,303 @@ module tb_ram_reg;
 endmodule
 ```
 
-**Codigo 2: tb_ram_reg.v**
+**Código:**
 
-#### - Esquemático
+ - Esquemático
 
-<img src="imagenes\C0_ram_diagrama.png" alt="C0_ram_diagrama" style="zoom:40%;" />
-
-#### - Simulación
+ - Simulación
 
 <img src="imagenes\B0_ram_simu.png" alt="B0_ram_simu" style="zoom:90%;" />
+
+ - Implementación
+   - Status: Pendiente
+
+
+---
+
+### 4.2. Divisor de frecuencia
+
+- Código
+  * **Descripción:** Divisor de frecuencia basado en un contador con reset automático y un flip-flop a la salida con comparador y reset. La formula para calcular `div_val` es `div_val` = (t*f_fpga)/2 -1
+
+
+```verilog
+module clk_div(clk, rst, slow_clk);
+	
+	// I/O declaration
+	input  clk;
+	input  rst;
+	output slow_clk; 
+	
+	// Descrition
+	localparam div_val = 50000000-1;
+	integer	   count_val = 0;
+	reg temp_clk = 0;
+	
+	// Simple Counter with auto reset
+	always @(posedge clk) begin
+		if( ( count_val == div_val ) || rst)
+			count_val <= 0;	
+		else
+			count_val <= count_val + 1;		
+	end
+	
+	// Comparator with flip-flop logic
+	always @(posedge clk) begin
+		if (rst)
+			temp_clk <= 0;
+		else if (count_val == div_val)
+			temp_clk <= ~temp_clk;
+		else
+			temp_clk <= temp_clk;	
+	end	  
+    
+	assign slow_clk = temp_clk;
+endmodule
+```
+
+**Código:**
+
+ - Testbench
+
+```verilog
+// Time Unit = 1ns, precision = 100ps = 1/10 ns
+`timescale 1 ns / 100 ps  
+module tb_clk_div; 		
+	
+	// Aux signals for testbench
+	reg  clk;
+	reg  rst;
+	reg  slow_clk; 
+	
+	// Instantiation DUT (Device Under Test)
+	clk_div DUT (clk, rst, slow_clk);	
+	// Time period = 20 * timescale = 20 * 1ns = 20ns
+	localparam period = 20;
+	
+	// Reset sequence
+	initial begin
+		clk = 0; rst = 0; #period;
+		rst = 1; #period;
+		rst = 0; #period;
+	end	   
+    
+	// 50 MHz clock (10 * 1ns * 2) with 50% duty-cycle 	 20 ns period
+	always #10 clk = ~clk;  
+endmodule
+```
+
+**Código:**
+
+ - Esquemático
+
+ - Simulación
+
+<img src="imagenes\B3_clk_div_silu.png" alt="B3_clk_div_silu" style="zoom:67%;" />
+
+ - Implementación
+   - Status: Completada
+
+
+---
+
+### 4.3. W Register 
+
+ - Código
+   * **Descripción:** W register como un simple flip-flop D con habilitación basado en la documentación oficial de Xilinx.
+
+
+```verilog
+module w_reg(clk, rst, en, din, dout);
+    
+	// I/O declaration
+	input  clk;
+	input  rst;
+	input  en;
+	input  [7:0] din;
+	output [7:0] dout;
+    
+	// Descrition
+	reg [7:0] d_reg;
+	always @(posedge clk) begin
+		if(rst)
+			d_reg <= 0;
+		else if (en)
+			d_reg <= din;
+	end
+	assign dout = d_reg;
+endmodule
+```
+
+**Código:**
+
+ - Testbench
+
+```verilog
+// Time Unit = 1ns, precision = 100ps = 1/10 ns
+`timescale 1 ns / 100 ps  
+module tb_w_reg; 
+	
+	// Aux signals for testbench  
+	reg  clk;
+	reg  rst;
+	reg  en;
+	reg  [7:0] din;
+	reg  [7:0] dout;
+	
+	// Instantiation DUT (Device Under Test)
+	w_reg DUT (clk, rst, en, din, dout);;	
+	
+	localparam period = 20;
+	
+	//  Reset sequence
+	initial begin
+		clk = 0; rst = 0; en = 0; din = 8'd1; #period;
+		rst = 1; #period;
+		rst = 0; #period;
+	end	   
+	
+	// 50 MHz clock (10 * 1ns * 2) with 50% duty-cycle 	 20 ns period
+	always #10 clk = ~clk;  
+		
+	initial begin	
+		#(period*4);
+		
+		// Load 
+		din = 8'd1;
+		en = 1; #period;
+		en = 0; #period;
+		#(period*2);
+		
+		// Load 
+		din = 8'd2;
+		#(period*2);
+		en = 1; #period;
+		en = 0; #period;
+		#(period*2);
+		
+		// Load 
+		din = 8'd4;
+		en = 1; #period;
+		en = 0; #period;
+		#(period*2);
+	end
+endmodule
+```
+
+**Código:**
+
+ - Esquemático
+ - Simulación
+
+<img src="imagenes\B4_w_reg_silu.png" alt="B4_w_reg_silu" style="zoom:80%;" />
+
+ - Implementación
+   - Status: Pendiente
+
+
+---
+
+### 4.4. Instruction Register (IR) 
+
+ - Código
+
+* **Descripción:** Instruction register como un simple flip-flop D con habilitación basado en la documentación oficial de Xilinx.
+
+```verilog
+module i_reg(clk, rst, en, din, dout);
+	
+	// I/O declaration
+	input  clk;
+	input  rst;
+	input  en;
+	input  [11:0] din;
+	output [11:0] dout;
+	
+	// Descrition
+	reg [11:0] d_reg;
+	always @(posedge clk) begin
+		if(rst)
+			d_reg <= 0;
+		else if (en)
+			d_reg <= din;
+	end
+	
+	assign dout = d_reg;
+	
+endmodule
+```
+
+**Código:**
+
+ - Testbench
+
+```verilog
+`timescale 1 ns / 100 ps  
+module tb_i_reg; 
+	
+	// Aux signals for testbench  
+	reg  clk;
+	reg  rst;
+	reg  en;
+	reg  [11:0] din;
+	reg  [11:0] dout;
+	
+	// Instantiation DUT (Device Under Test)
+	i_reg DUT (clk, rst, en, din, dout);;	
+	
+	localparam period = 20;
+	
+	//  Reset sequence
+	initial begin
+		clk = 0; rst = 0; en = 0; din = 12'd1; #period;
+		rst = 1; #period;
+		rst = 0; #period;
+	end	   
+	
+	// 50 MHz clock (10 * 1ns * 2) with 50% duty-cycle 	 20 ns period
+	always #10 clk = ~clk;  
+		
+	initial begin	
+		#(period*4);
+		
+		// Load 
+		din = 12'd1;
+		en = 1; #period;
+		en = 0; #period;
+		#(period*2);
+		
+		// Load 
+		din = 12'd2;
+		#(period*2);
+		en = 1; #period;
+		en = 0; #period;
+		#(period*2);
+		
+		// Load 
+		din = 12'd4;
+		en = 1; #period;
+		en = 0; #period;
+		#(period*2);
+	end
+endmodule
+```
+
+**Código:**
+
+ - Esquemático
+
+ - Simulación
+
+<img src="imagenes\B5_i_reg_silu.png" alt="B5_i_reg_silu" style="zoom:67%;" />
+
+ - Implementación
+   - Status: Pendiente
+
+
+---
+
+
 
 
 
@@ -226,77 +516,22 @@ endmodule
 * **Descripción:** 
 
 ```verilog
-module pc(clk, pc_in, pc_control, pc_stack, pc_out);
-	// I/O declaration
-	input clk,                  // Ciclo de instruccion 1 uS.
-	input [7:0] pc_in,          // Datos provenientes de la ALU (saltos).
-	input [1:0] pc_control,     // Señales de control para el PC.
-    input [8:0] pc_stack,       // Datos provenientes de la STACK.
-	output reg [8:0] pc_out = 0 // Valor de salida (memoria y stack). 
-
-	// Description
-	always @(posedge clk) 
-	begin
-	   case(pc_control)
-		  'b00: pc_out = 0;           // Reset.
-		  'b01: pc_out = pc_out + 1;  // PC + 1.
-		  'b10: pc_out = pc_in;       // Cargar valor de ALU en PC.
-		  'b11: pc_out = pc_stack;    // Cargar valor de STACK.
-		  default: pc_out = 0;        // Default Reset.
-	  endcase 
-	end
-endmodule
+// En modificación
 ```
 
-**Codigo 1: pv.v**
+**Codigo:**
 
 #### - Testbench
 
 ```verilog
-`timescale 1ns / 100ps
-module tb_pc();
-	reg  CLK_TB;
-	reg  [7:0] IN_TB;
-	reg  [1:0] CONTROL_TB;
-	reg  [8:0] STACK_TB;
-	wire [8:0] OUT_TB;
-  
-	pc DUT (.clk(CLK_TB), .pc_in(IN_TB), .pc_control(CONTROL_TB), .pc_stack(STACK_TB), .pc_out(OUT_TB));
-
-	integer i;
-	
-initial
-begin
-	CLK_TB = 1;  
-	IN_TB= 'h25;
-	STACK_TB= 'hff;
-   
-	for (i=0; i <5; i=i+1) begin
-		CONTROL_TB='b01;     
-		#500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB; 
-	end
-   
-	CONTROL_TB='b11;  #500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB;
-	CONTROL_TB='b00;  #500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB; 
-	CONTROL_TB='b10;  #500 CLK_TB = ~CLK_TB; #500 CLK_TB = ~CLK_TB;
-end
-  
- initial begin
-  $dumpvars;
-  $dumpfile("dump.vcd");
- end  
-endmodule
+// En modificación
 ```
 
-**Código 2: tb_pc.v **
+**Codigo:**
 
 #### - Esquemático
 
-<img src="imagenes\C1_pc_diagram.PNG" alt="C1_pc_diagram" style="zoom:67%;" />
-
 #### - Simulación
-
-<img src="imagenes\B1_pc_simu.PNG" alt="B1_pc_simu" style="zoom:50%;" />
 
 ### 4.3. ALU
 
@@ -358,7 +593,7 @@ module alu(
 endmodule
 ```
 
-**Código 1: alu.v **
+**Codigo:**
 
 #### - Testbench
 
@@ -405,7 +640,7 @@ initial begin
 endmodule
 ```
 
-**Código 2: tb_alu.v **
+**Codigo:**
 
 #### - Esquemático
 
@@ -414,8 +649,6 @@ Por agregar
 #### - Simulación
 
 <img src="imagenes\B2_alu_simu.png" alt="B2_alu_simu" style="zoom:80%;" />
-
-
 
 
 
@@ -436,7 +669,7 @@ assign alu=SEL?RAM:SFR; //SEL=1(RAM) & SEL=0(SFR)
 endmodule
 ```
 
-**Código 1: mux.v **
+**Codigo:**
 
 #### - Testbench
 
@@ -463,7 +696,7 @@ endmodule
 
 ```
 
-**Código 2: tb_mux.v **
+**Codigo:**
 
 #### - Esquemático
 
@@ -473,7 +706,80 @@ endmodule
 
 <img src="imagenes\B2_mux_simu.PNG" alt="B2_mux_simu" style="zoom:120%;" />
 
-## 5. Definiciones
+
+
+
+
+
+
+
+
+#### 
+
+
+
+
+
+### 4.n. Plantilla
+
+#### - Código
+
+* **Descripción:** 
+
+```verilog
+
+```
+
+**Codigo:**
+
+#### - Testbench
+
+```verilog
+
+```
+
+**Codigo:**
+
+#### - Esquemático
+
+#### - Simulación
+
+
+
+
+
+## 5. Implementación en FPGA
+
+Se va a utilizar la tarjeta Basys3 que tiene las siguientes caracteristicas:
+
+- Oscilador de 100 MHz
+- Artix-7 XC7A35T1CPG236C
+- 33,280 logic cells en 5200 slices (each slice contains four 6-input LUTs and 8 flip-flops)
+- 16 user switches
+- 16 user LEDs
+
+
+
+
+
+```
+## Clock signal
+set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
+
+## Switches
+set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {rst}]
+
+## LEDs
+set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_clk}]
+```
+
+
+
+
+
+
+
+## 6. Definiciones
 
 1. **Program Memory (Flash):** Es la memoria donde se guardan todas las instrucciones que se van a ejecutar en el microcontrolador, se mide en palabras (Words). Otra manera de verlo es como el código escrito por el programador convertido a hexadecimal el cual posteriormente se va a ejecutar. En el PIC10F200 es de 256x12 palabras. Cada instrucción es de 12 bits.
 2. **Data Memory (SRAM):** Es la memoria que el programador tiene disponible para almacenar valores que se utilizarán dentro del código a ejecutar. Por ejemplo, el resultado de una suma se puede almacenar en alguno de los registros del data memory. En el PIC10F200 se tienen 16x8 registros disponibles. El PIC es un microcontrolador de 8 bits.
@@ -481,7 +787,7 @@ endmodule
 4. **GPIO:**  General Purpose Input/Output.
 5. **PLD:** Programable Logic Devices.
 
-## 6. Referencias
+## 7. Referencias
 
 1. Datasheet del PIC en el siguiente [enlace](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001239F.pdf).
 2. Implementación del PIC10F200 en verilog por John Gulbrandsen en el siguiente [enlace](http://www.summitsoftconsulting.com/pic10ipcore.htm).
@@ -499,3 +805,4 @@ endmodule
 14. ALU de 4 bits para realizar 8 operaciones lógicas [enlace](https://programmerclick.com/article/8145851218/).
 15. Verilog code for a simple ALU [enlace](https://verilogcodes.blogspot.com/2015/10/verilog-code-for-simple-alu.html).
 16. Simple Flip-flop implementation [enlace](https://www.fpga4student.com/2017/02/verilog-code-for-d-flip-flop.html).
+17. Archivo de restricciones para FPGA Basys3 [enlace](https://github.com/Digilent/digilent-xdc/blob/master/Basys-3-Master.xdc)
