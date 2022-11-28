@@ -101,15 +101,25 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 ![opcode|350](imagenes/A6_opcode_description.png)
 **Tabla 2: Descripción de campos de opcode, extraído del datasheet [1]**
 
-## 2. Códigos
+
+## 3. Arquitectura básica
+
+![datgapath_básico|350](imagenes/completo.drawio.svg)
+**Figura 6: Datapath de arquitectura básica**
+
+## 4. Códigos
 
 1. [divisor_de_frecuencia](divisor_de_frecuencia.md)
 2. [ram](ram.md)
 3. [w_reg](w_reg.md)
 4. [instruction_reg](instruction_reg.md)
+5. [program_counter](program_counter.md)
+6. [alu_mux](alu_mux.md)
+7. [program_counter_mux](program_counter_mux.md)
+8. 
 
 
-## 3. Implementación en FPGA
+## 5. Implementación en FPGA
 
 Se va a utilizar la tarjeta Basys3 que tiene las siguientes caracteristicas:
 
@@ -130,7 +140,7 @@ set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {rst}]
 set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_clk}]
 ```
 
-## 4. Definiciones
+## 6. Definiciones
 
 1. **Program Memory (Flash):** Es la memoria donde se guardan todas las instrucciones que se van a ejecutar en el microcontrolador, se mide en palabras (Words). Otra manera de verlo es como el código escrito por el programador convertido a hexadecimal el cual posteriormente se va a ejecutar. En el PIC10F200 es de 256x12 palabras. Cada instrucción es de 12 bits.
 2. **Data Memory (SRAM):** Es la memoria que el programador tiene disponible para almacenar valores que se utilizarán dentro del código a ejecutar. Por ejemplo, el resultado de una suma se puede almacenar en alguno de los registros del data memory. En el PIC10F200 se tienen 16x8 registros disponibles. El PIC es un microcontrolador de 8 bits.
@@ -138,7 +148,7 @@ set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_cl
 4. **GPIO:**  General Purpose Input/Output.
 5. **PLD:** Programable Logic Devices.
 
-## 5. Referencias
+## 7. Referencias
 
 1. Datasheet del PIC en el siguiente [enlace](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001239F.pdf).
 2. Implementación del PIC10F200 en verilog por John Gulbrandsen en el siguiente [enlace](http://www.summitsoftconsulting.com/pic10ipcore.htm).
