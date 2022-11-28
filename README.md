@@ -46,7 +46,7 @@ En la Tabla 1 se muestran las pequeñas variaciones que hay en los distintos PIC
 * Mayor memoria de datos.
 * Comparador opcional.
 
-![](imagenes/A0_pinout.png)
+![especificacones|500](A1_especificaciones.png)
 **Tabla 1: Comparación de especificaciones, extraída de [1]**.
 
 
