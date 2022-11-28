@@ -81,7 +81,7 @@ La memoria de datos esta organizada en el mapa de registros de la Figura 3. Las 
 
 ### 1.8. Memoria del programa
 
-![program_memory|350](A3_program_memory_map.png)
+![program_memory|350](imagenes/A3_program_memory_map.png)
 **Figura 4: Memoria del programa, extraído de [1].**
 
 ### 1.9 Set de instrucciones
@@ -101,359 +101,15 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 ![opcode|350](imagenes/A6_opcode_description.png)
 **Tabla 2: Descripción de campos de opcode, extraído del datasheet [1]**
 
-## 4. Códigos
+## 2. Códigos
 
 1. [divisor_de_frecuencia](divisor_de_frecuencia.md)
-2. [[ram]]
+2. [ram](ram.md)
 3. [w_reg](w_reg.md)
+4. [instruction_reg](instruction_reg.md)
 
 
-
----
-
-### 4.4. Instruction Register (IR) 
-
- - Código
-
-* **Descripción:** Instruction register como un simple flip-flop D con habilitación basado en la documentación oficial de Xilinx.
-
-```verilog
-module i_reg(clk, rst, en, din, dout);
-	
-	// I/O declaration
-	input  clk;
-	input  rst;
-	input  en;
-	input  [11:0] din;
-	output [11:0] dout;
-	
-	// Descrition
-	reg [11:0] d_reg;
-	always @(posedge clk) begin
-		if(rst)
-			d_reg <= 0;
-		else if (en)
-			d_reg <= din;
-	end
-	
-	assign dout = d_reg;
-	
-endmodule
-```
-
-**Código:**
-
- - Testbench
-
-```verilog
-`timescale 1 ns / 100 ps  
-module tb_i_reg; 
-	
-	// Aux signals for testbench  
-	reg  clk;
-	reg  rst;
-	reg  en;
-	reg  [11:0] din;
-	reg  [11:0] dout;
-	
-	// Instantiation DUT (Device Under Test)
-	i_reg DUT (clk, rst, en, din, dout);;	
-	
-	localparam period = 20;
-	
-	//  Reset sequence
-	initial begin
-		clk = 0; rst = 0; en = 0; din = 12'd1; #period;
-		rst = 1; #period;
-		rst = 0; #period;
-	end	   
-	
-	// 50 MHz clock (10 * 1ns * 2) with 50% duty-cycle 	 20 ns period
-	always #10 clk = ~clk;  
-		
-	initial begin	
-		#(period*4);
-		
-		// Load 
-		din = 12'd1;
-		en = 1; #period;
-		en = 0; #period;
-		#(period*2);
-		
-		// Load 
-		din = 12'd2;
-		#(period*2);
-		en = 1; #period;
-		en = 0; #period;
-		#(period*2);
-		
-		// Load 
-		din = 12'd4;
-		en = 1; #period;
-		en = 0; #period;
-		#(period*2);
-	end
-endmodule
-```
-
-**Código:**
-
- - Esquemático
-
- - Simulación
-
-<img src="imagenes\B5_i_reg_silu.png" alt="B5_i_reg_silu" style="zoom:67%;" />
-
- - Implementación
-   - Status: Pendiente
-
-
----
-
-
-
-
-
-### 4.2. Program Counter
-
-#### - Código
-
-* **Descripción:** 
-
-```verilog
-// En modificación
-```
-
-**Codigo:**
-
-#### - Testbench
-
-```verilog
-// En modificación
-```
-
-**Codigo:**
-
-#### - Esquemático
-
-#### - Simulación
-
-### 4.3. ALU
-
-#### - Código
-
-* **Descripción:** 
-
-```verilog
-// Code your design here
-module alu(
-	input [7:0] A,B,  // ALU 8-bit Entradas                 
-	input [3:0] ALU_Sel,// ALU Selección operación
-	output [7:0] ALU_Out, // ALU 8-bit Salidas
-	output CarryOut // Indicador Carry Out 
-);
-	reg [7:0] ALU_Result;
-	wire [8:0] tmp;
-	assign ALU_Out = ALU_Result; // Salida ALU 
-	assign tmp = {1'b0,A} + {1'b0,B};
-	assign CarryOut = tmp[8]; // Indicador Carryout}
-	
-    always @(*) begin
-        case(ALU_Sel)
-        4'b0000: // Suma
-           ALU_Result = A + B ; 
-        4'b0001: // Rsta
-           ALU_Result = A - B ;
-        4'b0010: // Multiplicación
-           ALU_Result = A * B;
-        4'b0011: // División
-           ALU_Result = A/B;
-        4'b0100: // Desplazamiento a la izquierda
-           ALU_Result = A<<1;
-         4'b0101: // Desplazamiento a la derecha 
-           ALU_Result = A>>1;
-         4'b0110: // Girar izquierda
-           ALU_Result = {A[6:0],A[7]};
-         4'b0111: // Girar derecha
-           ALU_Result = {A[0],A[7:1]};
-          4'b1000: //  AND
-           ALU_Result = A & B;
-          4'b1001: //  OR
-           ALU_Result = A | B;
-          4'b1010: //  XOR 
-           ALU_Result = A ^ B;
-          4'b1011: //  NOR
-           ALU_Result = ~(A | B);
-          4'b1100: // NAND 
-           ALU_Result = ~(A & B);
-          4'b1101: // XNOR
-           ALU_Result = ~(A ^ B);
-          4'b1110: // Comparación mayor
-           ALU_Result = (A>B)?8'd1:8'd0 ;
-          4'b1111: // Comparación resultado   
-            ALU_Result = (A==B)?8'd1:8'd0 ;
-          default: ALU_Result = A + B ; 
-        endcase
-    end
-endmodule
-```
-
-**Codigo:**
-
-#### - Testbench
-
-```verilog
-// Code your testbench here
-// or browse Examples
- `timescale 1ns / 100ps  
-
-module tb_alu;
-//Inputs
- reg[7:0] A,B;
- reg[3:0] ALU_Sel;
-
-//Outputs
- wire[7:0] ALU_Out;
- wire CarryOut;
- // Verilog code for ALU
- integer i;
- alu test_unit(
-            A,B,  // ALU 8-bit Entradas                 
-            ALU_Sel,// ALU Selección
-            ALU_Out, // ALU 8-bit Salida
-            CarryOut // Indicador Carry Out
-     );
-    initial begin
-    // mantener el estado de reinicio durante 100 ns.
-      A = 8'h0A;
-      B = 4'h02;
-      ALU_Sel = 4'h0;
-      
-      for (i=0;i<=15;i=i+1)
-      begin
-       ALU_Sel = ALU_Sel + 8'h01;
-       #10;
-      end;
-      A = 8'hF6;
-      B = 8'h0A;
-    end
-
-initial begin
-  $dumpvars;
-  $dumpfile("dump.vcd");
- end  
-endmodule
-```
-
-**Codigo:**
-
-#### - Esquemático
-
-Por agregar
-
-#### - Simulación
-
-<img src="imagenes\B2_alu_simu.png" alt="B2_alu_simu" style="zoom:80%;" />
-
-
-
-### 4.3. MUX
-
-#### - Código
-
-* **Descripción:** 
-
-```verilog
-module alu_mux_2_to_1 (RAM, SFR, SEL, alu);
-input [7:0]RAM, SFR;
-input SEL;
-output [7:0]alu;
-
-assign alu=SEL?RAM:SFR; //SEL=1(RAM) & SEL=0(SFR)
-
-endmodule
-```
-
-**Codigo:**
-
-#### - Testbench
-
-```verilog
-module testbench();
-  reg [7:0]RAM, SFR;
-  reg SEL;
-  wire [7:0]alu;
-  
-  alu_mux_2_to_1 dut(RAM,SFR,SEL,alu);
-  initial begin
-    repeat(5) 
-      begin
-       RAM = $random;
-       SFR = $random;
-       SEL = $random;
-      #2ns;
-   	  end
-  end
-  initial begin
-    $monitor("RAM=%b SFR=%b SEL=%b alu=%b", RAM,SFR,SEL,alu);
-  end
-endmodule
-
-```
-
-**Codigo:**
-
-#### - Esquemático
-
-<img src="imagenes\C2_mux_diagram.PNG" alt="C2_mux_diagram" style="zoom:100%;" />
-
-#### - Simulación
-
-<img src="imagenes\B2_mux_simu.PNG" alt="B2_mux_simu" style="zoom:120%;" />
-
-
-
-
-
-
-
-
-
-#### 
-
-
-
-
-
-### 4.n. Plantilla
-
-#### - Código
-
-* **Descripción:** 
-
-```verilog
-
-```
-
-**Codigo:**
-
-#### - Testbench
-
-```verilog
-
-```
-
-**Codigo:**
-
-#### - Esquemático
-
-#### - Simulación
-
-
-
-
-
-## 5. Implementación en FPGA
+## 3. Implementación en FPGA
 
 Se va a utilizar la tarjeta Basys3 que tiene las siguientes caracteristicas:
 
@@ -463,11 +119,7 @@ Se va a utilizar la tarjeta Basys3 que tiene las siguientes caracteristicas:
 - 16 user switches
 - 16 user LEDs
 
-
-
-
-
-```
+```plain
 ## Clock signal
 set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
 
@@ -478,13 +130,7 @@ set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {rst}]
 set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_clk}]
 ```
 
-
-
-
-
-
-
-## 6. Definiciones
+## 4. Definiciones
 
 1. **Program Memory (Flash):** Es la memoria donde se guardan todas las instrucciones que se van a ejecutar en el microcontrolador, se mide en palabras (Words). Otra manera de verlo es como el código escrito por el programador convertido a hexadecimal el cual posteriormente se va a ejecutar. En el PIC10F200 es de 256x12 palabras. Cada instrucción es de 12 bits.
 2. **Data Memory (SRAM):** Es la memoria que el programador tiene disponible para almacenar valores que se utilizarán dentro del código a ejecutar. Por ejemplo, el resultado de una suma se puede almacenar en alguno de los registros del data memory. En el PIC10F200 se tienen 16x8 registros disponibles. El PIC es un microcontrolador de 8 bits.
@@ -492,7 +138,7 @@ set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_cl
 4. **GPIO:**  General Purpose Input/Output.
 5. **PLD:** Programable Logic Devices.
 
-## 7. Referencias
+## 5. Referencias
 
 1. Datasheet del PIC en el siguiente [enlace](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001239F.pdf).
 2. Implementación del PIC10F200 en verilog por John Gulbrandsen en el siguiente [enlace](http://www.summitsoftconsulting.com/pic10ipcore.htm).
