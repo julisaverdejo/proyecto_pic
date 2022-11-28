@@ -45,9 +45,8 @@ En la Tabla 1 se muestran las pequeñas variaciones que hay en los distintos PIC
 * Mayor memoria de programa (Flash).
 * Mayor memoria de datos.
 * Comparador opcional.
+
 ![[A1_especificaciones.png|500]]
-<img src="imagenes\A1_especificaciones.png" alt="A1_especificaciones" style="zoom:60%;" />
-[imagen](imagenes/A0_pinout.png)
 **Tabla 1: Comparación de especificaciones, extraída de [1]**.
 
 
