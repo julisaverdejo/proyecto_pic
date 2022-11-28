@@ -15,7 +15,7 @@ module pc_mux(stack_bus, alu_bus, pc_mux_sel, pc_mux_in);
 	output [8:0] pc_mux_in;
 
   // Description
-  assign pc_mux_in = pc_mux_sel ? {'b0',alu_bus} : stack_bus;  
+  assign pc_mux_in = pc_mux_sel ? {'b0,alu_bus} : stack_bus;  
 endmodule
 ```
 
@@ -25,3 +25,5 @@ endmodule
 ```
 
 - Simulación
+
+- [x] Sintesis

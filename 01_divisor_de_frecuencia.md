@@ -70,3 +70,6 @@ module tb_clk_div;
 endmodule
 ```
 
+- Simulación
+
+- [x] Sintesis

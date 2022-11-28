@@ -109,14 +109,16 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 
 ## 4. Códigos
 
-1. [divisor_de_frecuencia](divisor_de_frecuencia.md)
-2. [ram](ram.md)
-3. [w_reg](w_reg.md)
-4. [instruction_reg](instruction_reg.md)
-5. [program_counter](program_counter.md)
-6. [alu_mux](alu_mux.md)
-7. [program_counter_mux](program_counter_mux.md)
+1. [01_divisor_de_frecuencia](01_divisor_de_frecuencia.md)
+2. [02_ram](02_ram.md)
+3. [03_w_reg](03_w_reg.md)
+4. [04_instruction_reg](04_instruction_reg.md)
+5. [05_program_counter](05_program_counter.md)
+6. [06_alu_mux](06_alu_mux.md)
+7. [07_program_counter_mux](07_program_counter_mux.md)
 8. 
+9. [09_alu](09_alu.md)
+10. 
 
 
 ## 5. Implementación en FPGA

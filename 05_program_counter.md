@@ -34,3 +34,5 @@ endmodule
 ```
 
 - Simulación
+
+- [x] Sintesis

@@ -1,4 +1,4 @@
-## 8. ALU
+## 9. ALU
 
 - **Descripción:** Módulo ALU
 
@@ -155,3 +155,5 @@ endmodule
 ```
 
 - Simulación
+
+- [ ] Sintesis
