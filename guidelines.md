@@ -24,9 +24,9 @@
 
 
 
-| Nombre de señal | Abreviación |      |
-| --------------- | ----------- | ---- |
-| Señal de reloj  | `clk`       |      |
-| Señal de reset  | `rst`       |      |
-|                 |             |      |
+| Nombre de señal        | Abreviación |
+| ---------------------- | ----------- |
+| Señal de reloj         | `clk`       |
+| Señal de reset         | `rst`       |
+| Cualquier habilitación | `en`        |
 
