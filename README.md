@@ -1,7 +1,6 @@
 # Diseño de arquitectura de PIC10F200 en Verilog
 
 Autores:
-
 1. Julisa Verdejo Palacios
 2. Jose David Rodríguez Muñoz
 3. Oscar Iván Ramírez Medina
@@ -49,36 +48,27 @@ En la Tabla 1 se muestran las pequeñas variaciones que hay en los distintos PIC
 ![especificacones|300](imagenes/A1_especificaciones.png)
 **Tabla 1: Comparación de especificaciones, extraída de [1]**.
 
-
-
 ### 1.4. Diagrama de pines
 
 En la Figura 1 se muestra el diagrama de pines PDIP (Plastic Dual In-Line Package) del PIC. La única variación que hay entre los diferentes PICs de esta familia es que los pines 3,4,5 se pueden configurar como comparador si se tiene disponible, de otra manera se utilizan como entradas o salidas. Se tienen dos pines para la alimentación, 2 y 7 respectivamente y los pines 1 y 6 no se utilizan. El pin 8 se puede configurar únicamente como entrada de ser necesario o funciona normalmente como reset.
 
-<img src="imagenes\A0_pinout.png" alt="A0_pinout" style="zoom:50%;" />
-
+![pinout|350](imagenes/A0_pinout.png)
 **Figura 1: Pinout, extraído de [1]**.
 
 ### 1.5. Aplicaciones
 
 Los dispositivos PIC10F200 se adaptan a aplicaciones que van desde dispositivos de cuidado personal y sistemas de seguridad hasta transmisores/receptores remotos de baja potencia. La tecnología Flash hace que la personalización de los programas de aplicación sea extremadamente rápida y cómoda. Su empaquetado de tamaño reducido hace que estos microcontroladores sean ideales para aplicaciones con limitaciones de espacio. El bajo costo, bajo consumo de energía, alto rendimiento, facilidad de uso y flexibilidad de I/O hacen que sean muy versátiles incluso en áreas donde no se ha considerado antes el uso de microcontroladores (funciones de temporizador, lógica y PLD en sistemas más grandes y aplicaciones de coprocesador).
 
-
-
 ### 1.6. Data path
 
-<img src="imagenes\A2_datapath.png" alt="A2_datapath" style="zoom:80%;" />
-
+![datapath|350](imagenes/A2_datapath.png)
 **Figura 2: Data Path, extraído de [1]**.
-
-
 
 ### 1.7. Organización de la memoria de datos
 
 La memoria de datos esta organizada en el mapa de registros de la Figura 3. Las direcciones están es hexadecimal y van desde 00h hasta 1Fh. Las primeras 8 direcciones de la memoria de datos esta reservada para algunos de los registros de función especial, los cuales son: 
 
 * **INDF:**  Indirect Data Addresing.
-
 * **TMR0:** Este registro se utiliza para el funcionamiento del periférico contador de 8 bits.   
 * **PCL:** Registro de contador de programa (Program Counter). Almacena la dirección de la próxima instrucción a ejecutarse en la memoria de programa. El valor del Program Counter se incrementa en uno cada ciclo de instrucción, a menos que una instrucción cambie su valor.
 * **STATUS:** Este registro contiene el estado de la aritmética del ALU. Por ejemplo, en este registro el bit **DC** que indica cuando ocurre un desbordamiento en las operaciones de suma y resta.
@@ -86,20 +76,15 @@ La memoria de datos esta organizada en el mapa de registros de la Figura 3. Las 
 * **OSCCAL:** Registro de calibración del oscilador. Es utilizado para calibrar la precisión interna del oscilador de 4 MHz, Contiene 7 bits de calibración. El valor de calibración debe leerse antes de borrar el dispositivo para que pueda programarse correctamente posteriormente.
 *  **GPIO:** Solo los últimos 4 bits de este registro se utilizan. GP0, GP1,GP2 se pueden configurar como estradas o salidas utilizando el registro TRIS (Tristate register), GP3 puede configurarse solo como entrada. El registro GPIO nos permite leerlo para conocer el estado de las entradas de los pines o modificarlo para poner a 1 o 0 los pines configurados como salida.
 * **CMCONC0:** Este registro controla la operación del comparador.
-
-<img src="imagenes\A4_register_file_map.png" alt="A4_register_file_map" style="zoom:70%;" />
-
+![register_file|350](A4_register_file_map.png)
 **Figura 3: Mapa de registros de la memoria de datos, extraído de [1].**
-
-
 
 ### 1.8. Memoria del programa
 
-<img src="imagenes\A3_program_memory_map.png" alt="A3_program_memory_map" style="zoom:80%;" />
-
+![program_memory|350](A3_program_memory_map.png)
 **Figura 4: Memoria del programa, extraído de [1].**
 
-## 2. Set de instrucciones
+### 1.9 Set de instrucciones
 
 Las instrucciones del PIC se dividen en tres categorías básicas:
 
@@ -109,27 +94,21 @@ Las instrucciones del PIC se dividen en tres categorías básicas:
 
 Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especifica el tipo de instrucción y un **operando**.
 
-
-
-<img src="imagenes\A5_instruction_format.png" alt="A5_instruction_format" style="zoom:60%;" />
-
+![instruction_format|350](A5_instruction_format.png)
 **Figura 5: Mapa de registros de la memoria de datos, extraído del datasheet [1].**
 
 
-
-<img src="imagenes\A6_opcode_description.png" alt="A6_opcode_description" style="zoom:80%;" />
-
-**Tabla 2: Descripción de campos de opcode,extraído del datasheet [1]**
-
-
+![opcode|350](A6_opcode_description.png)
+**Tabla 2: Descripción de campos de opcode, extraído del datasheet [1]**
 
 ## 4. Códigos
+
+1. [divisor_de_frecuencia](divisor_de_frecuencia.md)
 
 ### 4.1. Módulo RAM
 
 - Código
   * **Descripción:** Módulo RAM de un solo puerto con reset síncrono e inicialización a ceros con prioridad de escritura.
-
 
 ```verilog
 module ram_reg(clk, rst, we, addr, din, dout);
@@ -227,88 +206,7 @@ endmodule
 
 ---
 
-### 4.2. Divisor de frecuencia
 
-- Código
-  * **Descripción:** Divisor de frecuencia basado en un contador con reset automático y un flip-flop a la salida con comparador y reset. La formula para calcular `div_val` es `div_val` = (t*f_fpga)/2 -1
-
-
-```verilog
-module clk_div(clk, rst, slow_clk);
-	
-	// I/O declaration
-	input  clk;
-	input  rst;
-	output slow_clk; 
-	
-	// Descrition
-	localparam div_val = 50000000-1;
-	integer	   count_val = 0;
-	reg temp_clk = 0;
-	
-	// Simple Counter with auto reset
-	always @(posedge clk) begin
-		if( ( count_val == div_val ) || rst)
-			count_val <= 0;	
-		else
-			count_val <= count_val + 1;		
-	end
-	
-	// Comparator with flip-flop logic
-	always @(posedge clk) begin
-		if (rst)
-			temp_clk <= 0;
-		else if (count_val == div_val)
-			temp_clk <= ~temp_clk;
-		else
-			temp_clk <= temp_clk;	
-	end	  
-    
-	assign slow_clk = temp_clk;
-endmodule
-```
-
-**Código:**
-
- - Testbench
-
-```verilog
-// Time Unit = 1ns, precision = 100ps = 1/10 ns
-`timescale 1 ns / 100 ps  
-module tb_clk_div; 		
-	
-	// Aux signals for testbench
-	reg  clk;
-	reg  rst;
-	reg  slow_clk; 
-	
-	// Instantiation DUT (Device Under Test)
-	clk_div DUT (clk, rst, slow_clk);	
-	// Time period = 20 * timescale = 20 * 1ns = 20ns
-	localparam period = 20;
-	
-	// Reset sequence
-	initial begin
-		clk = 0; rst = 0; #period;
-		rst = 1; #period;
-		rst = 0; #period;
-	end	   
-    
-	// 50 MHz clock (10 * 1ns * 2) with 50% duty-cycle 	 20 ns period
-	always #10 clk = ~clk;  
-endmodule
-```
-
-**Código:**
-
- - Esquemático
-
- - Simulación
-
-<img src="imagenes\B3_clk_div_silu.png" alt="B3_clk_div_silu" style="zoom:67%;" />
-
- - Implementación
-   - Status: Completada
 
 
 ---
