@@ -1,5 +1,12 @@
 # Diseño de arquitectura de PIC10F200 en Verilog
 
+Autores:
+
+1. Julisa Verdejo Palacios
+2. Jose David Rodríguez Muñoz
+3. Oscar Iván Ramírez Medina
+4. Eduardo Juárez Mendoza
+
 ## 1. Características del PIC
 
 El PIC10F200 es un dispositivo de bajo costo, alto rendimiento, de 8 bits, con memoria Flash basada en CMOS desarrollado por Microchip Technology. Este microcontrolador emplea una arquitectura **RISC** (Reduce Instruction Set Computing). El conjunto de instrucciones es fácil de usar y fácil de recordar lo cual reduce significativamente el tiempo de desarrollo.
@@ -38,9 +45,9 @@ En la Tabla 1 se muestran las pequeñas variaciones que hay en los distintos PIC
 * Mayor memoria de programa (Flash).
 * Mayor memoria de datos.
 * Comparador opcional.
-
+![[A1_especificaciones.png|500]]
 <img src="imagenes\A1_especificaciones.png" alt="A1_especificaciones" style="zoom:60%;" />
-
+[imagen](imagenes/A0_pinout.png)
 **Tabla 1: Comparación de especificaciones, extraída de [1]**.
 
 
@@ -52,8 +59,6 @@ En la Figura 1 se muestra el diagrama de pines PDIP (Plastic Dual In-Line Packag
 <img src="imagenes\A0_pinout.png" alt="A0_pinout" style="zoom:50%;" />
 
 **Figura 1: Pinout, extraído de [1]**.
-
-
 
 ### 1.5. Aplicaciones
 
