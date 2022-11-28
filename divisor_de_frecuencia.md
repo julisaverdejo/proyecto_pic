@@ -1,4 +1,3 @@
-# Códigos
 
 ## 1. Divisor de frecuencia
 
@@ -44,7 +43,6 @@ endmodule
 ```
  
  - Testbench
-
 ```verilog
 // Time Unit = 1ns, precision = 100ps = 1/10 ns
 `timescale 1 ns / 100 ps  
@@ -72,4 +70,3 @@ module tb_clk_div;
 endmodule
 ```
 
-- Simulación
