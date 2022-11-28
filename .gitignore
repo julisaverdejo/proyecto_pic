@@ -1,3 +1,6 @@
 ## ignorar folders
 .obsidian/
 referencias/
+
+## ignore files
+*.bak
