@@ -116,7 +116,7 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 5. [05_program_counter](05_program_counter.md)
 6. [06_alu_mux](06_alu_mux.md)
 7. [07_program_counter_mux](07_program_counter_mux.md)
-8. 
+8. [06_alu_mux](06_alu_mux.md)
 9. [09_alu](09_alu.md)
 10. 
 

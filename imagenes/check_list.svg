@@ -40,16 +40,16 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1350"
-     inkscape:window-height="2321"
+     inkscape:window-width="1312"
+     inkscape:window-height="721"
      id="namedview1246"
      showgrid="false"
      inkscape:zoom="0.91477888"
-     inkscape:cx="786.20384"
-     inkscape:cy="297.43078"
-     inkscape:window-x="2391"
-     inkscape:window-y="-9"
-     inkscape:window-maximized="1"
+     inkscape:cx="759.0143"
+     inkscape:cy="646.17097"
+     inkscape:window-x="2410"
+     inkscape:window-y="796"
+     inkscape:window-maximized="0"
      inkscape:current-layer="svg1244" />
   <defs
      id="defs2" />
@@ -6061,4 +6061,9 @@ Stack</xhtml:font>
      d="m 745.11182,704.79058 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
      id="path1460"
      sodipodi:nodetypes="ccc" />
+  <path
+     sodipodi:nodetypes="ccc"
+     id="path1452-7"
+     d="m 734.69546,536.34521 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
 </svg>
