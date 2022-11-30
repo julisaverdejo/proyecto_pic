@@ -45,7 +45,7 @@ En la Tabla 1 se muestran las pequeñas variaciones que hay en los distintos PIC
 * Mayor memoria de datos.
 * Comparador opcional.
 
-![especificacones|300](imagenes/A1_especificaciones.png)
+![especificacones|350](imagenes/A1_especificaciones.png)
 **Tabla 1: Comparación de especificaciones, extraída de [1]**.
 
 ### 1.4. Diagrama de pines
@@ -116,9 +116,10 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 5. [05_program_counter](05_program_counter.md)
 6. [06_alu_mux](06_alu_mux.md)
 7. [07_program_counter_mux](07_program_counter_mux.md)
-8. [06_alu_mux](06_alu_mux.md)
+8. [08_irsta_mux](08_irsta_mux.md)
 9. [09_alu](09_alu.md)
-10. 
+10. [10_stack](10_stack.md)
+11. [11_program_memory](11_program_memory.md)
 
 
 ## 5. Implementación en FPGA
@@ -150,7 +151,10 @@ set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_cl
 4. **GPIO:**  General Purpose Input/Output.
 5. **PLD:** Programable Logic Devices.
 
-## 7. Referencias
+## 7. Conclusiones
+- 
+
+## 8. Referencias
 
 1. Datasheet del PIC en el siguiente [enlace](https://ww1.microchip.com/downloads/aemDocuments/documents/OTH/ProductDocuments/DataSheets/40001239F.pdf).
 2. Implementación del PIC10F200 en verilog por John Gulbrandsen en el siguiente [enlace](http://www.summitsoftconsulting.com/pic10ipcore.htm).

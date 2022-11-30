@@ -1,4 +1,4 @@
-## 2. Módulo RAM
+## 2. RAM
 
 - **Descripción:** Módulo RAM de un solo puerto con reset síncrono e inicialización a ceros con prioridad de escritura.
 

@@ -1,4 +1,4 @@
-## 6. Multiplexor de registro IR
+## 8. Multiplexor de registro IR
 
 - **Descripción:** Multiplexor de registro IR
 
