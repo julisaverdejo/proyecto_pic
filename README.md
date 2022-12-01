@@ -133,7 +133,7 @@ gantt
     Operaciones de salto                             : task_e7, after task_e6, 4d
 ```
 
-## 1. Características del PIC
+#### 1. Características del PIC
 
 El PIC10F200 es un dispositivo de bajo costo, alto rendimiento, de 8 bits, con memoria Flash basada en CMOS desarrollado por Microchip Technology. Este microcontrolador emplea una arquitectura **RISC** (Reduce Instruction Set Computing). El conjunto de instrucciones es fácil de usar y fácil de recordar lo cual reduce significativamente el tiempo de desarrollo.
 
