@@ -1,2 +1,5 @@
+El desarrollo de este proyecto nos permitió conocer y desarrollar las habilidades básicas para la implementación de un microcontrolador en Verilog, lenguaje de descripción de hardware que hasta ese momento era desconocido para mí. Fue indispensable analizar todos y cada uno de los bloques que conformaron parte del microcontrolador para definir el flujo de datos y las respectivas señales de control que debían ser implementadas.
 
-mis conclusiones
+Cabe señalar que el PIC10F200 a pesar de sus limitantes en cuanto al número de instrucciones que es capaz de ejecutar, este sigue siendo aun utilizado en aplicaciones de uso específico donde la velocidad de procesamiento sea indispensable.
+
+Este curso fue útil esencialmente para aprender a desarrollar bloques combinacionales y secuenciales además de ser probados con un respectivo _testbench_, el cual nos permitía visualizar el comportamiento del código descrito previamente.

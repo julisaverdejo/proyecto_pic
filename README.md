@@ -10,28 +10,127 @@ Autores:
 
 ```mermaid
 gantt
-	title Diagrama de trabajo de proyecto_pic
-    %% Esto es un comentario
-    %%dateFormat  YY-MM-DD
-    section julisa
-    Investigacion de microntroladores    : task_j1, 2022-10-26, 3d
-    Selección de microcontrolador       : task_j2, after task_j1, 1d
-    Busqueda de referncias     : task_j3, after task_j2, 2d
-    
-	section david
-	Investigación    : task_j1, 2022-10-26, 2d
-    Another task     : task_j2, after task_j1, 2d
-    Another task     : task_j3, after task_j2, 2d
-	
-	section oscar
-	Investigación    : task_j1, 2022-10-26, 2d
-    Another task     : task_j2, after task_j1, 2d
-    Another task     : task_j3, after task_j2, 2d
-    
-	section eduardo
-	Investigación    : task_j1, 2022-10-26, 2d
-    Another task     : task_j2, after task_j1, 2d
-    Another task     : task_j3, after task_j2, 2d
+    title Diagrama de trabajo de proyecto_pic
+
+    %% Esto es un comentario
+
+    %%dateFormat  YY-MM-DD
+
+    axisFormat %d-%m
+
+    section julisa
+
+    Investigación de microntroladores                : task_j1, 2022-10-26, 4d
+
+    Selección de microcontrolador                    : task_j2, after task_j1, 4d
+
+    Búsqueda de referencias                          : task_j3, after task_j1, 5d
+
+    Creación de repositorio GitHub                   : task_j4, after task_j2, 3d
+
+    Selección de referencias                         : task_j5, after task_j3, 3d
+
+    Redacción de caracteristicas                     : task_j6, after task_j3, 3d
+
+    Organización y reparto de tareas                 : task_j7, after task_j5, 3d
+
+    Programación de RAM                              : task_j8, after task_j7, 3d
+
+    Programación de w_reg                            : task_j9, after task_j8, 3d
+
+    Programación de ir                               : task_j10, after task_j8, 3d
+
+    Guidelines                                       : task_j14, after task_j10, 3d
+
+    Programación de divisor                          : task_j11, after task_j10, 4d
+
+    Redacción de reporte                             : task_j12, after task_j10, 4d
+
+    Implementación en FPGA                           : task_j13, after task_j12, 3d
+
+    Revisión de códigos                              : task_j15, after task_j13, 3d
+
+    Revisión de códigos                              : task_j16, after task_j15, 3d
+
+    Reporte final                                    : task_j17, after task_j16, 3d
+
+  
+  
+
+    section David
+
+    Investigación de microntroladores                : task_d1, 2022-10-26, 7d
+
+    Selección de microcontrolador                    : task_j2, after task_j1, 4d
+
+    Búsqueda de referencias                          : task_j3, after task_j1, 5d
+
+    Juntas de equipo                                 : task_t0, after task_j3, 6d
+
+    Programación de PC                               : task_d2, after task_j7, 4d
+
+    Programación de Stack                            : task_d3, after task_d2, 4d
+
+    Programación de PM                               : task_d4, after task_d2, 4d
+
+    Programación de FSR                              : task_d5, after task_d4, 4d
+
+    Programación de Status                           : task_d6, after task_d4, 4d
+
+    Programación de CU                               : task_d7, after task_d6, 4d
+
+    Esquematicos                                     : task_d8, after task_d6, 4d
+
+    Unión de códigos                                 : task_d9, after task_d7, 6d
+
+  
+  
+
+    section Oscar
+
+    Investigación de microntroladores                : task_o1, 2022-10-26, 7d
+
+    Selección de microcontrolador                    : task_j2, after task_j1, 4d
+
+    Búsqueda de referencias                          : task_j3, after task_j1, 5d
+
+    Juntas de equipo                                 : task_t0, after task_j3, 6d
+
+    Mux básico                                       : task_o2, after task_j7, 4d
+
+    Programación de PC mux                           : task_o3, after task_o2, 5d
+
+    Programación de Addr Mux                         : task_o4, after task_o2, 4d
+
+    Programación de ALU Mux                          : task_o5, after task_o4, 6d
+
+    Programación de IR Mux                           : task_o6, after task_o4, 7d
+
+    Parametricación de Mux                           : task_o7, after task_o6, 7d
+
+  
+
+    section eduardo
+
+    Investigación de microntroladores                : task_e1, 2022-10-26, 7d
+
+    Selección de microcontrolador                    : task_j2, after task_j1, 4d
+
+    Búsqueda de referencias                          : task_j3, after task_j1, 5d
+
+    Juntas de equipo                                 : task_t0, after task_j3, 6d
+
+    ALU básica                                       : task_e2, after task_j7, 7d
+
+    ALU para arquitectura                            : task_e3, after task_e2, 4d
+
+    Sintaxis task                                    : task_e4, after task_e2, 7d
+
+    Operaciones de byte                              : task_e5, after task_e4, 4d
+
+    Operaciones de bit                               : task_e6, after task_e4, 4d
+
+    Operaciones de salto                             : task_e7, after task_e6, 4d
 ```
 
 ## 1. Características del PIC
@@ -205,7 +304,15 @@ set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_cl
 
 ### 7.1. Generales
 
+La implementación del PIC10F200 puso a prueba nuestras habilidades para investigar, comprender y analizar cómo funcionan las diferentes arquitecturas en procesadores y microcontroladores. La idea general es cómo pasar a las instrucciones del microcontrolador a un lenguaje de descripcion de hardware de manera efectiva.
 
+El primer reto fue seleccionar un microcontrolador en el cual basar nuestro proyecto, además de planificar los horarios de trabajo y mantener coherencia entre bloques de código y una buena sinergia de equipo. Estas dificultades fueron afrontadas utilizando los medios tecnológicos de comunicación y la organización del proyecto por etapas.
+
+Se decidió utilizar el PIC10F200, principalmente porque es uno de los microcontroladores que más documentación tiene, esto permitio tener un buen punto de partida, no obstante es importate ser crítico y no perder el enfoque ya que a pesar de ser el mismo microcontrolador, la descripción del código por diferentes autores pude ser tanto del estilo jerarquico y bien estructurado como totalmente caótico.
+
+Entender claramente como funcionaban los bloques del datapath nos permitio abstraer los bloques absolutamente escenciales para poder computar las instrucciones básicas.
+
+A manera de resumen de este proyecto logramos aprender el uso de Verilog y la importancia que este lenguaje de descripción de hardware nos brinda. La importancia de hacer pruebas (testbench) a nuestros códigos y lo fundamental del trabajo en equipo.
 
 ### 7.2. Personales
 
