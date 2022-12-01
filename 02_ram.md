@@ -2,8 +2,6 @@
 
 - **Descripción:** Módulo RAM de un solo puerto con reset síncrono e inicialización a ceros con prioridad de escritura.
 
-- Esquemático
-
 - Código
 ```verilog
 module ram_reg(clk, rst, we, addr, din, dout);
@@ -83,7 +81,5 @@ module tb_ram_reg;
 	end
 endmodule
 ```
-
-- Simulación
 
 - [x] Sintesis

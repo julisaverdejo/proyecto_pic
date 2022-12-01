@@ -132,6 +132,9 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 10. [10_stack](10_stack.md)
 11. [11_program_memory](11_program_memory.md)
 12. [12_status_reg](12_status_reg.md)
+13. [13_addres_mux](13_addres_mux.md)
+14. [14_fsr](14_fsr.md)
+15. [15_control_unit](15_control_unit.md)
 
 ### 4.2 Mejoras de códigos a futuro
 
@@ -168,8 +171,17 @@ set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_cl
 5. **PLD:** Programable Logic Devices.
 
 ## 7. Conclusiones
-- Julisa Verdejo Palacios
-- 
+
+### 7.1. Generales
+
+
+
+### 7.2. Personales
+
+- Julisa Verdejo Palacios - [conclusiones](z1_conclusiones_julisa.md).
+- Jose David Rodríguez Muñoz - [conclusiones](z2_conclusiones_david.md).
+- Oscar Iván Ramírez Medina - [conclusiones](z3_conclusiones_oscar.md).
+- Eduardo Juárez Mendoza - [conclusiones](z4_conclusiones_eduardo.md).
 
 ## 8. Referencias
 

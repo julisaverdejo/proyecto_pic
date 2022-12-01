@@ -1,8 +1,6 @@
 ## 5. Program counter
 
-- **Descripción:** Contador de programa
-
-- Esquemático
+- **Descripción:** Contador de programa el cual incrementa el valor del registro en 1, reinicia o carga un valor dado dependiendo de sus entradas.
 
 - Código
 ```verilog
@@ -32,7 +30,5 @@ endmodule
 ```verilog
 
 ```
-
-- Simulación
 
 - [x] Sintesis

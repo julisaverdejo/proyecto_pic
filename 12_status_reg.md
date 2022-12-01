@@ -12,10 +12,10 @@ module status_reg(clk, rst, s_load, fc, fdc, fz, status_bus);
 	input  clk;
 	input  rst;
 	input  s_load;
-    input  fc;
-    input  fdc;
-    input  fz;
-    output [7:0] status_bus;
+	input  fc;
+	input  fdc;
+	input  fz;
+	output [7:0] status_bus;
     
 	// Descrition
     reg [7:0] ds_reg;

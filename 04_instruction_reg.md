@@ -2,8 +2,6 @@
 
 * **Descripción:** Instruction register como un simple flip-flop D con habilitación basado en la documentación oficial de Xilinx.
 
-- Esquemático
-
 - Código
 ```verilog
 module i_reg(clk, rst, en, din, dout);
@@ -80,7 +78,5 @@ module tb_i_reg;
 	end
 endmodule
 ```
-
-- Simulación
 
 - [x] Sintesis

@@ -3,9 +3,6 @@
 
 - **Descripción:** Divisor de frecuencia basado en un contador con reset automático y un flip-flop a la salida con comparador y reset. La formula para calcular `div_val` es `div_val` = (t*f_fpga)/2 -1
 
-- Esquemático
-
-
 - Código
 ```verilog
 module clk_div(clk, rst, slow_clk);
@@ -69,7 +66,5 @@ module tb_clk_div;
 	always #10 clk = ~clk;  
 endmodule
 ```
-
-- Simulación
 
 - [x] Sintesis

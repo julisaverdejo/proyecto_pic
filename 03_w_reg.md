@@ -2,8 +2,6 @@
 
 * **Descripción:** W register como un simple flip-flop D con habilitación basado en la documentación oficial de Xilinx.
 
-- Esquemático
-
 - Código
 ```verilog
 module w_reg(clk, rst, en, din, dout);
@@ -26,7 +24,6 @@ module w_reg(clk, rst, en, din, dout);
 	assign dout = d_reg;
 endmodule
 ```
-
 
  - Testbench
 ```verilog
@@ -80,7 +77,5 @@ module tb_w_reg;
 	end
 endmodule
 ```
-
-- Simulación
 
 - [x] Sintesis
