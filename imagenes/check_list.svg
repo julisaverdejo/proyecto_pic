@@ -40,22 +40,23 @@
      guidetolerance="10"
      inkscape:pageopacity="0"
      inkscape:pageshadow="2"
-     inkscape:window-width="1312"
-     inkscape:window-height="721"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
      id="namedview1246"
      showgrid="false"
-     inkscape:zoom="0.91477888"
-     inkscape:cx="759.0143"
-     inkscape:cy="646.17097"
-     inkscape:window-x="2410"
-     inkscape:window-y="796"
-     inkscape:window-maximized="0"
+     inkscape:zoom="1.2936927"
+     inkscape:cx="859.38167"
+     inkscape:cy="349.60771"
+     inkscape:window-x="-9"
+     inkscape:window-y="1051"
+     inkscape:window-maximized="1"
      inkscape:current-layer="svg1244" />
   <defs
      id="defs2" />
   <g
-     transform="translate(0.96053691,7.6521263)"
-     id="g1234">
+     transform="matrix(1,0,0,1.0005399,0.96053691,7.6521263)"
+     id="g1234"
+     style="stroke-width:0.999729">
     <rect
        x="349"
        y="78"
@@ -64,12 +65,15 @@
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect4" />
+       id="rect4"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g10">
+       id="g10"
+       style="stroke-width:0.999729">
       <switch
-         id="switch8">
+         id="switch8"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -84,6 +88,8 @@
               <xhtml:div
                  style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">Registro <xhtml:br />
 
+
+
 pc.</xhtml:div>
             </xhtml:div>
           </xhtml:div>
@@ -95,7 +101,8 @@ pc.</xhtml:div>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text6">Registro...</text>
+           id="text6"
+           style="stroke-width:0.0355839">Registro...</text>
       </switch>
     </g>
     <rect
@@ -106,12 +113,15 @@ pc.</xhtml:div>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect12" />
+       id="rect12"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g18">
+       id="g18"
+       style="stroke-width:0.999729">
       <switch
-         id="switch16">
+         id="switch16"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -135,7 +145,8 @@ pc.</xhtml:div>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text14">pc_mux_in</text>
+           id="text14"
+           style="stroke-width:0.0355839">pc_mux_in</text>
       </switch>
     </g>
     <path
@@ -144,21 +155,24 @@ pc.</xhtml:div>
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path20" />
+       id="path20"
+       style="stroke-width:0.0355839" />
     <path
        d="m 166.9,141.27 h 10.5 L 160,177.5 142.6,141.27 h 10.5"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path22" />
+       id="path22"
+       style="stroke-width:0.0355839" />
     <path
        d="m 612.5,106.1 v 13.8 h -48.77 v 10.5 L 527.5,113 563.73,95.6 v 10.5 z"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path24" />
+       id="path24"
+       style="stroke-width:0.0355839" />
     <rect
        x="574"
        y="121"
@@ -167,12 +181,15 @@ pc.</xhtml:div>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect26" />
+       id="rect26"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g32">
+       id="g32"
+       style="stroke-width:0.999729">
       <switch
-         id="switch30">
+         id="switch30"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -196,7 +213,8 @@ pc.</xhtml:div>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text28">9</text>
+           id="text28"
+           style="stroke-width:0.0355839">9</text>
       </switch>
     </g>
     <rect
@@ -207,12 +225,15 @@ pc.</xhtml:div>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect34" />
+       id="rect34"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g40">
+       id="g40"
+       style="stroke-width:0.999729">
       <switch
-         id="switch38">
+         id="switch38"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -236,7 +257,8 @@ pc.</xhtml:div>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text36">pc_out</text>
+           id="text36"
+           style="stroke-width:0.0355839">pc_out</text>
       </switch>
     </g>
     <path
@@ -245,14 +267,16 @@ pc.</xhtml:div>
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path42" />
+       id="path42"
+       style="stroke-width:0.0355839" />
     <path
        d="m 720.68,160.67 -0.08,10.5 -36.1,-17.67 36.37,-17.12 -0.08,10.5"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path44" />
+       id="path44"
+       style="stroke-width:0.0355839" />
     <rect
        x="527"
        y="216"
@@ -261,12 +285,15 @@ pc.</xhtml:div>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect46" />
+       id="rect46"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g52">
+       id="g52"
+       style="stroke-width:0.999729">
       <switch
-         id="switch50">
+         id="switch50"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -290,7 +317,8 @@ pc.</xhtml:div>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text48">stack_bus</text>
+           id="text48"
+           style="stroke-width:0.0355839">stack_bus</text>
       </switch>
     </g>
     <path
@@ -299,14 +327,16 @@ pc.</xhtml:div>
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path54" />
+       id="path54"
+       style="stroke-width:0.0355839" />
     <path
        d="m 310.22,255.91 -0.07,-10.5 36.35,17.17 -36.12,17.63 -0.07,-10.5"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path56" />
+       id="path56"
+       style="stroke-width:0.0355839" />
     <rect
        x="307"
        y="123"
@@ -315,12 +345,15 @@ pc.</xhtml:div>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect58" />
+       id="rect58"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g64">
+       id="g64"
+       style="stroke-width:0.999729">
       <switch
-         id="switch62">
+         id="switch62"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -344,7 +377,8 @@ pc.</xhtml:div>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text60">9</text>
+           id="text60"
+           style="stroke-width:0.0355839">9</text>
       </switch>
     </g>
     <rect
@@ -355,12 +389,15 @@ pc.</xhtml:div>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect66" />
+       id="rect66"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g72">
+       id="g72"
+       style="stroke-width:0.999729">
       <switch
-         id="switch70">
+         id="switch70"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -377,6 +414,8 @@ pc.</xhtml:div>
                 <xhtml:font
                    color="#00994d">A la memoria <xhtml:br />
 
+
+
 de programa</xhtml:font>
               </xhtml:div>
             </xhtml:div>
@@ -389,7 +428,8 @@ de programa</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text68">A la memoria...</text>
+           id="text68"
+           style="stroke-width:0.0355839">A la memoria...</text>
       </switch>
     </g>
     <rect
@@ -400,12 +440,15 @@ de programa</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect74" />
+       id="rect74"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g80">
+       id="g80"
+       style="stroke-width:0.999729">
       <switch
-         id="switch78">
+         id="switch78"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -422,6 +465,8 @@ de programa</xhtml:font>
                 <xhtml:font
                    color="#00994d">A la pila<xhtml:br />
 
+
+
 Stack</xhtml:font>
               </xhtml:div>
             </xhtml:div>
@@ -434,7 +479,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text76">A la pila...</text>
+           id="text76"
+           style="stroke-width:0.0355839">A la pila...</text>
       </switch>
     </g>
     <rect
@@ -445,12 +491,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect82" />
+       id="rect82"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g88">
+       id="g88"
+       style="stroke-width:0.999729">
       <switch
-         id="switch86">
+         id="switch86"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -478,7 +527,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text84">clk</text>
+           id="text84"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -487,49 +537,56 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path90" />
+       id="path90"
+       style="stroke-width:0.0355839" />
     <path
        d="m 573,130.5 20,-31"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path92" />
+       id="path92"
+       style="stroke-width:0.0355839" />
     <path
        d="m 723,165.5 23,-24"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path94" />
+       id="path94"
+       style="stroke-width:0.0355839" />
     <path
        d="m 510,41 -0.07,27.57"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path96" />
+       id="path96"
+       style="stroke-width:0.0355839" />
     <path
        d="m 509.91,76.82 -5.47,-11.02 5.49,2.77 5.51,-2.74 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path98" />
+       id="path98"
+       style="stroke-width:0.0355839" />
     <path
        d="m 473,41 v 16 10 1.63"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path100" />
+       id="path100"
+       style="stroke-width:0.0355839" />
     <path
        d="m 473,76.88 -5.5,-11 5.5,2.75 5.5,-2.75 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path102" />
+       id="path102"
+       style="stroke-width:0.0355839" />
     <rect
        x="394"
        y="17"
@@ -538,12 +595,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect104" />
+       id="rect104"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g110">
+       id="g110"
+       style="stroke-width:0.999729">
       <switch
-         id="switch108">
+         id="switch108"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -571,7 +631,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text106">pc_inc</text>
+           id="text106"
+           style="stroke-width:0.0355839">pc_inc</text>
       </switch>
     </g>
     <path
@@ -580,14 +641,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path112" />
+       id="path112"
+       style="stroke-width:0.0355839" />
     <path
        d="m 424.01,76.88 -5.47,-11.02 5.49,2.77 5.51,-2.74 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path114" />
+       id="path114"
+       style="stroke-width:0.0355839" />
     <rect
        x="453"
        y="16"
@@ -596,12 +659,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect116" />
+       id="rect116"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g122">
+       id="g122"
+       style="stroke-width:0.999729">
       <switch
-         id="switch120">
+         id="switch120"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -629,7 +695,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text118">rst</text>
+           id="text118"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -638,14 +705,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path124" />
+       id="path124"
+       style="stroke-width:0.0355839" />
     <path
        d="m 366.91,76.82 -5.47,-11.02 5.49,2.77 5.51,-2.74 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path126" />
+       id="path126"
+       style="stroke-width:0.0355839" />
     <rect
        x="332"
        y="17"
@@ -654,12 +723,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect128" />
+       id="rect128"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g134">
+       id="g134"
+       style="stroke-width:0.999729">
       <switch
-         id="switch132">
+         id="switch132"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -689,7 +761,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text130">pc_load</text>
+           id="text130"
+           style="stroke-width:0.0355839">pc_load</text>
       </switch>
     </g>
     <path
@@ -699,12 +772,15 @@ Stack</xhtml:font>
        stroke-miterlimit="10"
        transform="rotate(-90,648,111.5)"
        pointer-events="all"
-       id="path136" />
+       id="path136"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g142">
+       id="g142"
+       style="stroke-width:0.999729">
       <switch
-         id="switch140">
+         id="switch140"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -728,7 +804,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text138">pc_mux</text>
+           id="text138"
+           style="stroke-width:0.0355839">pc_mux</text>
       </switch>
     </g>
     <path
@@ -737,14 +814,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path144" />
+       id="path144"
+       style="stroke-width:0.0355839" />
     <path
        d="m 648,50.63 -5.5,-11 5.5,2.75 5.5,-2.75 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path146" />
+       id="path146"
+       style="stroke-width:0.0355839" />
     <rect
        x="598"
        y="0"
@@ -753,12 +832,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect148" />
+       id="rect148"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g154">
+       id="g154"
+       style="stroke-width:0.999729">
       <switch
-         id="switch152">
+         id="switch152"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -786,7 +868,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text150">pc_mux_sel</text>
+           id="text150"
+           style="stroke-width:0.0355839">pc_mux_sel</text>
       </switch>
     </g>
     <rect
@@ -797,12 +880,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect156" />
+       id="rect156"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g162">
+       id="g162"
+       style="stroke-width:0.999729">
       <switch
-         id="switch160">
+         id="switch160"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -826,7 +912,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text158">1</text>
+           id="text158"
+           style="stroke-width:0.0355839">1</text>
       </switch>
     </g>
     <rect
@@ -837,12 +924,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect164" />
+       id="rect164"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g170">
+       id="g170"
+       style="stroke-width:0.999729">
       <switch
-         id="switch168">
+         id="switch168"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -866,7 +956,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text166">0</text>
+           id="text166"
+           style="stroke-width:0.0355839">0</text>
       </switch>
     </g>
     <rect
@@ -877,12 +968,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect172" />
+       id="rect172"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g178">
+       id="g178"
+       style="stroke-width:0.999729">
       <switch
-         id="switch176">
+         id="switch176"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -906,7 +1000,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text174">9</text>
+           id="text174"
+           style="stroke-width:0.0355839">9</text>
       </switch>
     </g>
     <path
@@ -915,14 +1010,16 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path180" />
+       id="path180"
+       style="stroke-width:0.0355839" />
     <path
        d="m 719.73,91.43 -0.01,10.5 -36.22,-17.43 36.25,-17.36 -0.01,10.5"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path182" />
+       id="path182"
+       style="stroke-width:0.0355839" />
     <rect
        x="710"
        y="44"
@@ -931,12 +1028,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect184" />
+       id="rect184"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g190">
+       id="g190"
+       style="stroke-width:0.999729">
       <switch
-         id="switch188">
+         id="switch188"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -960,7 +1060,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text186">alu_bus</text>
+           id="text186"
+           style="stroke-width:0.0355839">alu_bus</text>
       </switch>
     </g>
     <path
@@ -969,7 +1070,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path192" />
+       id="path192"
+       style="stroke-width:0.0355839" />
     <rect
        x="721"
        y="87.5"
@@ -978,12 +1080,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect194" />
+       id="rect194"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g200">
+       id="g200"
+       style="stroke-width:0.999729">
       <switch
-         id="switch198">
+         id="switch198"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1007,7 +1112,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text196">8</text>
+           id="text196"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <rect
@@ -1018,12 +1124,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect202" />
+       id="rect202"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g208">
+       id="g208"
+       style="stroke-width:0.999729">
       <switch
-         id="switch206">
+         id="switch206"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1047,7 +1156,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text204">stack pointer</text>
+           id="text204"
+           style="stroke-width:0.0355839">stack pointer</text>
       </switch>
     </g>
     <rect
@@ -1058,12 +1168,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect210" />
+       id="rect210"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g216">
+       id="g216"
+       style="stroke-width:0.999729">
       <switch
-         id="switch214">
+         id="switch214"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1091,7 +1204,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text212">clk</text>
+           id="text212"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -1100,28 +1214,32 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path218" />
+       id="path218"
+       style="stroke-width:0.0355839" />
     <path
        d="m 509.91,224.32 -5.47,-11.02 5.49,2.77 5.51,-2.74 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path220" />
+       id="path220"
+       style="stroke-width:0.0355839" />
     <path
        d="m 477.2,188.5 v 16 10 1.63"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path222" />
+       id="path222"
+       style="stroke-width:0.0355839" />
     <path
        d="m 477.2,224.38 -5.5,-11 5.5,2.75 5.5,-2.75 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path224" />
+       id="path224"
+       style="stroke-width:0.0355839" />
     <rect
        x="346"
        y="162.5"
@@ -1130,12 +1248,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect226" />
+       id="rect226"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g232">
+       id="g232"
+       style="stroke-width:0.999729">
       <switch
-         id="switch230">
+         id="switch230"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1163,7 +1284,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text228">stack_load</text>
+           id="text228"
+           style="stroke-width:0.0355839">stack_load</text>
       </switch>
     </g>
     <rect
@@ -1174,12 +1296,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect234" />
+       id="rect234"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g240">
+       id="g240"
+       style="stroke-width:0.999729">
       <switch
-         id="switch238">
+         id="switch238"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1207,7 +1332,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text236">rst</text>
+           id="text236"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -1216,14 +1342,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path242" />
+       id="path242"
+       style="stroke-width:0.0355839" />
     <path
        d="m 391.49,224.38 -5.62,-10.94 5.53,2.69 5.47,-2.8 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path244" />
+       id="path244"
+       style="stroke-width:0.0355839" />
     <rect
        x="350"
        y="326"
@@ -1232,12 +1360,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect246" />
+       id="rect246"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g252">
+       id="g252"
+       style="stroke-width:0.999729">
       <switch
-         id="switch250">
+         id="switch250"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1267,7 +1398,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text248">stack_inc</text>
+           id="text248"
+           style="stroke-width:0.0355839">stack_inc</text>
       </switch>
     </g>
     <rect
@@ -1278,12 +1410,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect254" />
+       id="rect254"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g260">
+       id="g260"
+       style="stroke-width:0.999729">
       <switch
-         id="switch258">
+         id="switch258"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1313,7 +1448,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text256">stack_dec</text>
+           id="text256"
+           style="stroke-width:0.0355839">stack_dec</text>
       </switch>
     </g>
     <path
@@ -1322,28 +1458,32 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path262" />
+       id="path262"
+       style="stroke-width:0.0355839" />
     <path
        d="m 391.51,299.62 5.6,10.95 -5.52,-2.7 -5.48,2.8 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path264" />
+       id="path264"
+       style="stroke-width:0.0355839" />
     <path
        d="m 467.82,324 -0.21,-17.13"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path266" />
+       id="path266"
+       style="stroke-width:0.0355839" />
     <path
        d="m 467.51,298.62 5.64,10.93 -5.54,-2.68 -5.46,2.81 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path268" />
+       id="path268"
+       style="stroke-width:0.0355839" />
     <rect
        x="287"
        y="216"
@@ -1352,12 +1492,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect270" />
+       id="rect270"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g276">
+       id="g276"
+       style="stroke-width:0.999729">
       <switch
-         id="switch274">
+         id="switch274"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1381,7 +1524,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text272">pc_out</text>
+           id="text272"
+           style="stroke-width:0.0355839">pc_out</text>
       </switch>
     </g>
     <path
@@ -1390,7 +1534,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path278" />
+       id="path278"
+       style="stroke-width:0.0355839" />
     <rect
        x="300"
        y="285"
@@ -1399,12 +1544,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect280" />
+       id="rect280"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g286">
+       id="g286"
+       style="stroke-width:0.999729">
       <switch
-         id="switch284">
+         id="switch284"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1428,7 +1576,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text282">9</text>
+           id="text282"
+           style="stroke-width:0.0355839">9</text>
       </switch>
     </g>
     <path
@@ -1437,7 +1586,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path288" />
+       id="path288"
+       style="stroke-width:0.0355839" />
     <rect
        x="544"
        y="265"
@@ -1446,12 +1596,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect290" />
+       id="rect290"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g296">
+       id="g296"
+       style="stroke-width:0.999729">
       <switch
-         id="switch294">
+         id="switch294"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1475,7 +1628,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text292">9</text>
+           id="text292"
+           style="stroke-width:0.0355839">9</text>
       </switch>
     </g>
     <rect
@@ -1486,12 +1640,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect298" />
+       id="rect298"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g304">
+       id="g304"
+       style="stroke-width:0.999729">
       <switch
-         id="switch302">
+         id="switch302"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1515,7 +1672,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text300">stack_bus</text>
+           id="text300"
+           style="stroke-width:0.0355839">stack_bus</text>
       </switch>
     </g>
     <rect
@@ -1527,12 +1685,15 @@ Stack</xhtml:font>
        stroke="#36393d"
        transform="rotate(90,160,253)"
        pointer-events="all"
-       id="rect306" />
+       id="rect306"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g312">
+       id="g312"
+       style="stroke-width:0.999729">
       <switch
-         id="switch310">
+         id="switch310"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1547,6 +1708,8 @@ Stack</xhtml:font>
               <xhtml:div
                  style="display: inline-block; font-size: 12px; font-family: Helvetica; color: rgb(0, 0, 0); line-height: 1.2; pointer-events: all; white-space: normal; overflow-wrap: normal;">MEMORIA DE PROGRAMA<xhtml:br />
 
+
+
 512X12</xhtml:div>
             </xhtml:div>
           </xhtml:div>
@@ -1558,7 +1721,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text308">MEMORIA DE PROGR...</text>
+           id="text308"
+           style="stroke-width:0.0355839">MEMORIA DE PROGR...</text>
       </switch>
     </g>
     <path
@@ -1567,14 +1731,16 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path314" />
+       id="path314"
+       style="stroke-width:0.0355839" />
     <path
        d="m 143,359 30,-28"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path316" />
+       id="path316"
+       style="stroke-width:0.0355839" />
     <rect
        x="174"
        y="335"
@@ -1583,12 +1749,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect318" />
+       id="rect318"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g324">
+       id="g324"
+       style="stroke-width:0.999729">
       <switch
-         id="switch322">
+         id="switch322"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1612,7 +1781,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text320">12</text>
+           id="text320"
+           style="stroke-width:0.0355839">12</text>
       </switch>
     </g>
     <rect
@@ -1623,12 +1793,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect326" />
+       id="rect326"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g332">
+       id="g332"
+       style="stroke-width:0.999729">
       <switch
-         id="switch330">
+         id="switch330"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1652,7 +1825,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text328">program_bus</text>
+           id="text328"
+           style="stroke-width:0.0355839">program_bus</text>
       </switch>
     </g>
     <rect
@@ -1663,12 +1837,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect334" />
+       id="rect334"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g340">
+       id="g340"
+       style="stroke-width:0.999729">
       <switch
-         id="switch338">
+         id="switch338"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1692,7 +1869,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text336">pc_out</text>
+           id="text336"
+           style="stroke-width:0.0355839">pc_out</text>
       </switch>
     </g>
     <path
@@ -1701,7 +1879,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path342" />
+       id="path342"
+       style="stroke-width:0.0355839" />
     <rect
        x="115"
        y="115"
@@ -1710,12 +1889,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect344" />
+       id="rect344"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g350">
+       id="g350"
+       style="stroke-width:0.999729">
       <switch
-         id="switch348">
+         id="switch348"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1739,7 +1921,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text346">9</text>
+           id="text346"
+           style="stroke-width:0.0355839">9</text>
       </switch>
     </g>
     <rect
@@ -1750,12 +1933,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect352" />
+       id="rect352"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g358">
+       id="g358"
+       style="stroke-width:0.999729">
       <switch
-         id="switch356">
+         id="switch356"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1779,7 +1965,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text354">Registro ir.</text>
+           id="text354"
+           style="stroke-width:0.0355839">Registro ir.</text>
       </switch>
     </g>
     <rect
@@ -1790,12 +1977,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect360" />
+       id="rect360"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g366">
+       id="g366"
+       style="stroke-width:0.999729">
       <switch
-         id="switch364">
+         id="switch364"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1823,7 +2013,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text362">clk</text>
+           id="text362"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -1832,14 +2023,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path368" />
+       id="path368"
+       style="stroke-width:0.0355839" />
     <path
        d="m 236.12,408.26 11.03,-5.44 -2.78,5.48 2.72,5.52 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path370" />
+       id="path370"
+       style="stroke-width:0.0355839" />
     <rect
        x="269"
        y="415"
@@ -1848,12 +2041,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect372" />
+       id="rect372"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g378">
+       id="g378"
+       style="stroke-width:0.999729">
       <switch
-         id="switch376">
+         id="switch376"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1881,7 +2077,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text374">rst</text>
+           id="text374"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -1890,14 +2087,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path380" />
+       id="path380"
+       style="stroke-width:0.0355839" />
     <path
        d="m 83.88,420.52 -10.92,5.65 2.67,-5.54 -2.83,-5.46 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path382" />
+       id="path382"
+       style="stroke-width:0.0355839" />
     <rect
        x="0"
        y="389"
@@ -1906,12 +2105,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect384" />
+       id="rect384"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g390">
+       id="g390"
+       style="stroke-width:0.999729">
       <switch
-         id="switch388">
+         id="switch388"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -1941,7 +2143,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text386">ir_load</text>
+           id="text386"
+           style="stroke-width:0.0355839">ir_load</text>
       </switch>
     </g>
     <path
@@ -1950,28 +2153,32 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path392" />
+       id="path392"
+       style="stroke-width:0.0355839" />
     <path
        d="m 236.12,432.76 11.05,-5.39 -2.8,5.47 2.69,5.53 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path394" />
+       id="path394"
+       style="stroke-width:0.0355839" />
     <path
        d="m 150.23,445.62 16.55,-0.24 0.99,66.16 10.66,-0.16 -18.44,33.12 -19.42,-32.55 10.66,-0.16 z"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path396" />
+       id="path396"
+       style="stroke-width:0.0355839" />
     <path
        d="m 145,519 30,-28"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path398" />
+       id="path398"
+       style="stroke-width:0.0355839" />
     <rect
        x="163"
        y="494"
@@ -1980,12 +2187,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect400" />
+       id="rect400"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g406">
+       id="g406"
+       style="stroke-width:0.999729">
       <switch
-         id="switch404">
+         id="switch404"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2009,7 +2219,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text402">12</text>
+           id="text402"
+           style="stroke-width:0.0355839">12</text>
       </switch>
     </g>
     <rect
@@ -2020,12 +2231,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect408" />
+       id="rect408"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g414">
+       id="g414"
+       style="stroke-width:0.999729">
       <switch
-         id="switch412">
+         id="switch412"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2049,7 +2263,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text410">ir_bus</text>
+           id="text410"
+           style="stroke-width:0.0355839">ir_bus</text>
       </switch>
     </g>
     <rect
@@ -2060,12 +2275,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect416" />
+       id="rect416"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g422">
+       id="g422"
+       style="stroke-width:0.999729">
       <switch
-         id="switch420">
+         id="switch420"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2089,7 +2307,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text418">Unidad de control</text>
+           id="text418"
+           style="stroke-width:0.0355839">Unidad de control</text>
       </switch>
     </g>
     <rect
@@ -2100,12 +2319,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect424" />
+       id="rect424"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g430">
+       id="g430"
+       style="stroke-width:0.999729">
       <switch
-         id="switch428">
+         id="switch428"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2133,7 +2355,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text426">clk</text>
+           id="text426"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -2142,14 +2365,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path432" />
+       id="path432"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.88,862.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path434" />
+       id="path434"
+       style="stroke-width:0.0355839" />
     <rect
        x="21"
        y="781"
@@ -2158,12 +2383,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect436" />
+       id="rect436"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g442">
+       id="g442"
+       style="stroke-width:0.999729">
       <switch
-         id="switch440">
+         id="switch440"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2191,7 +2419,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text438">rst</text>
+           id="text438"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -2200,28 +2429,32 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path444" />
+       id="path444"
+       style="stroke-width:0.0355839" />
     <path
        d="m 93.63,796.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path446" />
+       id="path446"
+       style="stroke-width:0.0355839" />
     <path
        d="m 56.61,822.22 28.77,-0.17"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path448" />
+       id="path448"
+       style="stroke-width:0.0355839" />
     <path
        d="m 93.63,822.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path450" />
+       id="path450"
+       style="stroke-width:0.0355839" />
     <rect
        x="256"
        y="844"
@@ -2230,12 +2463,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect452" />
+       id="rect452"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g458">
+       id="g458"
+       style="stroke-width:0.999729">
       <switch
-         id="switch456">
+         id="switch456"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2265,7 +2501,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text454">pc_load</text>
+           id="text454"
+           style="stroke-width:0.0355839">pc_load</text>
       </switch>
     </g>
     <path
@@ -2274,14 +2511,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path460" />
+       id="path460"
+       style="stroke-width:0.0355839" />
     <path
        d="m 260.88,908.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path462" />
+       id="path462"
+       style="stroke-width:0.0355839" />
     <rect
        x="252"
        y="892"
@@ -2290,12 +2529,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect464" />
+       id="rect464"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g470">
+       id="g470"
+       style="stroke-width:0.999729">
       <switch
-         id="switch468">
+         id="switch468"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2325,7 +2567,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text466">pc_mux_sel</text>
+           id="text466"
+           style="stroke-width:0.0355839">pc_mux_sel</text>
       </switch>
     </g>
     <path
@@ -2334,14 +2577,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path472" />
+       id="path472"
+       style="stroke-width:0.0355839" />
     <path
        d="m 262.88,783.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path474" />
+       id="path474"
+       style="stroke-width:0.0355839" />
     <rect
        x="258"
        y="767"
@@ -2350,12 +2595,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect476" />
+       id="rect476"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g482">
+       id="g482"
+       style="stroke-width:0.999729">
       <switch
-         id="switch480">
+         id="switch480"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2385,7 +2633,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text478">stack_inc</text>
+           id="text478"
+           style="stroke-width:0.0355839">stack_inc</text>
       </switch>
     </g>
     <path
@@ -2394,14 +2643,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path484" />
+       id="path484"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.88,806.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path486" />
+       id="path486"
+       style="stroke-width:0.0355839" />
     <rect
        x="254"
        y="790"
@@ -2410,12 +2661,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect488" />
+       id="rect488"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g494">
+       id="g494"
+       style="stroke-width:0.999729">
       <switch
-         id="switch492">
+         id="switch492"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2445,7 +2699,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text490">stack_dec</text>
+           id="text490"
+           style="stroke-width:0.0355839">stack_dec</text>
       </switch>
     </g>
     <path
@@ -2454,14 +2709,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path496" />
+       id="path496"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.88,832.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path498" />
+       id="path498"
+       style="stroke-width:0.0355839" />
     <rect
        x="254"
        y="816"
@@ -2470,12 +2727,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect500" />
+       id="rect500"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g506">
+       id="g506"
+       style="stroke-width:0.999729">
       <switch
-         id="switch504">
+         id="switch504"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2505,7 +2765,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text502">stack_load</text>
+           id="text502"
+           style="stroke-width:0.0355839">stack_load</text>
       </switch>
     </g>
     <path
@@ -2514,14 +2775,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path508" />
+       id="path508"
+       style="stroke-width:0.0355839" />
     <path
        d="m 260.88,883.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path510" />
+       id="path510"
+       style="stroke-width:0.0355839" />
     <rect
        x="257"
        y="868"
@@ -2530,12 +2793,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect512" />
+       id="rect512"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g518">
+       id="g518"
+       style="stroke-width:0.999729">
       <switch
-         id="switch516">
+         id="switch516"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2565,7 +2831,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text514">pc_inc</text>
+           id="text514"
+           style="stroke-width:0.0355839">pc_inc</text>
       </switch>
     </g>
     <path
@@ -2574,14 +2841,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path520" />
+       id="path520"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.88,755.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path522" />
+       id="path522"
+       style="stroke-width:0.0355839" />
     <rect
        x="256"
        y="741"
@@ -2590,12 +2859,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect524" />
+       id="rect524"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g530">
+       id="g530"
+       style="stroke-width:0.999729">
       <switch
-         id="switch528">
+         id="switch528"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2625,7 +2897,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text526">ir_load</text>
+           id="text526"
+           style="stroke-width:0.0355839">ir_load</text>
       </switch>
     </g>
     <path
@@ -2634,14 +2907,16 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path532" />
+       id="path532"
+       style="stroke-width:0.0355839" />
     <path
        d="m 677.49,476.69 9.7,-0.24 -16.45,18.05 -17.34,-17.2 9.7,-0.25"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path534" />
+       id="path534"
+       style="stroke-width:0.0355839" />
     <rect
        x="599"
        y="433"
@@ -2650,12 +2925,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect536" />
+       id="rect536"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g542">
+       id="g542"
+       style="stroke-width:0.999729">
       <switch
-         id="switch540">
+         id="switch540"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2679,7 +2957,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text538">ir_bus</text>
+           id="text538"
+           style="stroke-width:0.0355839">ir_bus</text>
       </switch>
     </g>
     <path
@@ -2688,7 +2967,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path544" />
+       id="path544"
+       style="stroke-width:0.0355839" />
     <rect
        x="618"
        y="468"
@@ -2697,12 +2977,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect546" />
+       id="rect546"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g552">
+       id="g552"
+       style="stroke-width:0.999729">
       <switch
-         id="switch550">
+         id="switch550"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2726,7 +3009,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text548">12</text>
+           id="text548"
+           style="stroke-width:0.0355839">12</text>
       </switch>
     </g>
     <rect
@@ -2737,12 +3021,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect554" />
+       id="rect554"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g560">
+       id="g560"
+       style="stroke-width:0.999729">
       <switch
-         id="switch558">
+         id="switch558"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2766,7 +3053,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text556">w</text>
+           id="text556"
+           style="stroke-width:0.0355839">w</text>
       </switch>
     </g>
     <path
@@ -2776,12 +3064,15 @@ Stack</xhtml:font>
        stroke-miterlimit="10"
        transform="rotate(180,734,600)"
        pointer-events="all"
-       id="path562" />
+       id="path562"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g568">
+       id="g568"
+       style="stroke-width:0.999729">
       <switch
-         id="switch566">
+         id="switch566"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2805,7 +3096,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text564">alu_mux</text>
+           id="text564"
+           style="stroke-width:0.0355839">alu_mux</text>
       </switch>
     </g>
     <rect
@@ -2816,12 +3108,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect570" />
+       id="rect570"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g576">
+       id="g576"
+       style="stroke-width:0.999729">
       <switch
-         id="switch574">
+         id="switch574"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2845,7 +3140,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text572">RAM</text>
+           id="text572"
+           style="stroke-width:0.0355839">RAM</text>
       </switch>
     </g>
     <rect
@@ -2856,12 +3152,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect578" />
+       id="rect578"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g584">
+       id="g584"
+       style="stroke-width:0.999729">
       <switch
-         id="switch582">
+         id="switch582"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2885,7 +3184,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text580">alu</text>
+           id="text580"
+           style="stroke-width:0.0355839">alu</text>
       </switch>
     </g>
     <path
@@ -2894,42 +3194,48 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path586" />
+       id="path586"
+       style="stroke-width:0.0355839" />
     <path
        d="m 694.75,733.5 h 10 v 59 h 10.5 l -15.5,19 -15.5,-19 h 10.5 z"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path588" />
+       id="path588"
+       style="stroke-width:0.0355839" />
     <path
        d="m 694.76,861.57 10,-0.14 0.31,22.57 H 530 V 620 h 136.96 l 0.13,15.46 10.5,-0.09 -15.34,19.13 -15.66,-18.87 10.5,-0.09 -0.05,-5.54 H 540 v 244 h 154.93 z"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path590" />
+       id="path590"
+       style="stroke-width:0.0355839" />
     <path
        d="m 667.09,635.46 10.5,-0.09 -15.34,19.13 -15.66,-18.87 10.5,-0.09"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path592" />
+       id="path592"
+       style="stroke-width:0.0355839" />
     <path
        d="M 535,457.5 H 525 V 420 h 75 365.02 l 0.04,-11.52 -10.5,-0.03 15.56,-18.95 15.44,19.05 -10.5,-0.03 -0.08,21.48 H 600 535 Z"
        fill="#dae8fc"
        stroke="#6c8ebf"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path594" />
+       id="path594"
+       style="stroke-width:0.0355839" />
     <path
        d="m 965.06,408.48 -10.5,-0.03 15.56,-18.95 15.44,19.05 -10.5,-0.03"
        fill="none"
        stroke="#6c8ebf"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path596" />
+       id="path596"
+       style="stroke-width:0.0355839" />
     <rect
        x="969"
        y="248"
@@ -2938,12 +3244,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect598" />
+       id="rect598"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g604">
+       id="g604"
+       style="stroke-width:0.999729">
       <switch
-         id="switch602">
+         id="switch602"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -2967,7 +3276,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text600">5</text>
+           id="text600"
+           style="stroke-width:0.0355839">5</text>
       </switch>
     </g>
     <path
@@ -2976,40 +3286,47 @@ Stack</xhtml:font>
        stroke="#6c8ebf"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path606" />
+       id="path606"
+       style="stroke-width:0.0355839" />
     <path
        d="m 605.23,689.08 -0.05,-10.5 19.07,15.42 -18.93,15.58 -0.05,-10.5"
        fill="none"
        stroke="#6c8ebf"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path608" />
+       id="path608"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1252.5,186 v 10 h -72.48 l -80.47,0.8 0.1,10.5 -19.15,-15.3 18.84,-15.69 0.11,10.5 80.53,-0.81 z"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path610" />
+       id="path610"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1099.55,196.8 0.1,10.5 -19.15,-15.3 18.84,-15.69 0.11,10.5"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path612" />
+       id="path612"
+       style="stroke-width:0.0355839" />
     <path
        d="m 935.25,389 20,-70 h 99.5 l 20,70 z"
        fill="#fff2cc"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path614" />
+       id="path614"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g620">
+       id="g620"
+       style="stroke-width:0.999729">
       <switch
-         id="switch618">
+         id="switch618"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3033,7 +3350,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text616">addr mux</text>
+           id="text616"
+           style="stroke-width:0.0355839">addr mux</text>
       </switch>
     </g>
     <path
@@ -3042,7 +3360,8 @@ Stack</xhtml:font>
        stroke="#6c8ebf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path622" />
+       id="path622"
+       style="stroke-width:0.0355839" />
     <rect
        x="911"
        y="392"
@@ -3051,12 +3370,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect624" />
+       id="rect624"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g630">
+       id="g630"
+       style="stroke-width:0.999729">
       <switch
-         id="switch628">
+         id="switch628"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3080,7 +3402,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text626">5</text>
+           id="text626"
+           style="stroke-width:0.0355839">5</text>
       </switch>
     </g>
     <rect
@@ -3091,12 +3414,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect632" />
+       id="rect632"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g638">
+       id="g638"
+       style="stroke-width:0.999729">
       <switch
-         id="switch636">
+         id="switch636"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3120,7 +3446,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text634">FSR</text>
+           id="text634"
+           style="stroke-width:0.0355839">FSR</text>
       </switch>
     </g>
     <path
@@ -3129,35 +3456,40 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path640" />
+       id="path640"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1069.5,438 v 10 h -42.52 l 0.15,-38.82 -10.5,-0.04 15.57,-18.94 15.43,19.06 -10.5,-0.04 -0.11,28.78 z"
        fill="#dae8fc"
        stroke="#6c8ebf"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path642" />
+       id="path642"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1027.13,409.18 -10.5,-0.04 15.57,-18.94 15.43,19.06 -10.5,-0.04"
        fill="none"
        stroke="#6c8ebf"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path644" />
+       id="path644"
+       style="stroke-width:0.0355839" />
     <path
        d="M 929.53,187 929.47,197 785,196.03 V 345 375 555.5 h 10.5 l -15.5,19 -15.5,-19 H 775 V 375 345 185.97 Z"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path646" />
+       id="path646"
+       style="stroke-width:0.0355839" />
     <path
        d="m 785,555.5 h 10.5 l -15.5,19 -15.5,-19 H 775"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path648" />
+       id="path648"
+       style="stroke-width:0.0355839" />
     <rect
        x="845.25"
        y="665.5"
@@ -3166,12 +3498,15 @@ Stack</xhtml:font>
        fill="#f9f7ed"
        stroke="#36393d"
        pointer-events="all"
-       id="rect650" />
+       id="rect650"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g656">
+       id="g656"
+       style="stroke-width:0.999729">
       <switch
-         id="switch654">
+         id="switch654"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3195,7 +3530,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text652">Status</text>
+           id="text652"
+           style="stroke-width:0.0355839">Status</text>
       </switch>
     </g>
     <path
@@ -3204,21 +3540,24 @@ Stack</xhtml:font>
        stroke="#6c8ebf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path658" />
+       id="path658"
+       style="stroke-width:0.0355839" />
     <path
        d="m 910.02,664.99 -9.6,0.02 -0.21,-196.21 H 737.84 l 0.09,10.42 10.5,-0.08 -15.18,14.36 -15.42,-14.11 10.5,-0.09 -0.17,-20.1 h 181.63 z"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="1.42"
        pointer-events="all"
-       id="path660" />
+       id="path660"
+       style="stroke-width:0.0355839" />
     <path
        d="m 737.93,479.22 10.5,-0.08 -15.18,14.36 -15.42,-14.11 10.5,-0.09"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="4"
        pointer-events="all"
-       id="path662" />
+       id="path662"
+       style="stroke-width:0.0355839" />
     <rect
        x="687"
        y="575"
@@ -3227,12 +3566,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect664" />
+       id="rect664"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g670">
+       id="g670"
+       style="stroke-width:0.999729">
       <switch
-         id="switch668">
+         id="switch668"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3256,7 +3598,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text666">1</text>
+           id="text666"
+           style="stroke-width:0.0355839">1</text>
       </switch>
     </g>
     <rect
@@ -3267,12 +3610,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect672" />
+       id="rect672"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g678">
+       id="g678"
+       style="stroke-width:0.999729">
       <switch
-         id="switch676">
+         id="switch676"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3296,7 +3642,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text674">0</text>
+           id="text674"
+           style="stroke-width:0.0355839">0</text>
       </switch>
     </g>
     <path
@@ -3305,14 +3652,16 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path680" />
+       id="path680"
+       style="stroke-width:0.0355839" />
     <path
        d="m 764.5,543 30,-28"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path682" />
+       id="path682"
+       style="stroke-width:0.0355839" />
     <rect
        x="744"
        y="465"
@@ -3321,12 +3670,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect684" />
+       id="rect684"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g690">
+       id="g690"
+       style="stroke-width:0.999729">
       <switch
-         id="switch688">
+         id="switch688"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3350,7 +3702,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text686">3</text>
+           id="text686"
+           style="stroke-width:0.0355839">3</text>
       </switch>
     </g>
     <rect
@@ -3361,12 +3714,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect692" />
+       id="rect692"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g698">
+       id="g698"
+       style="stroke-width:0.999729">
       <switch
-         id="switch696">
+         id="switch696"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3390,7 +3746,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text694">8</text>
+           id="text694"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <path
@@ -3399,28 +3756,32 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path700" />
+       id="path700"
+       style="stroke-width:0.0355839" />
     <path
        d="m 990.5,283.5 30,-28"
        fill="none"
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path702" />
+       id="path702"
+       style="stroke-width:0.0355839" />
     <path
        d="m 644,593.67 25.63,-0.37"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path704" />
+       id="path704"
+       style="stroke-width:0.0355839" />
     <path
        d="m 677.88,593.19 -10.92,5.65 2.67,-5.54 -2.83,-5.46 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path706" />
+       id="path706"
+       style="stroke-width:0.0355839" />
     <rect
        x="551"
        y="568.66998"
@@ -3429,12 +3790,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect708" />
+       id="rect708"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g714">
+       id="g714"
+       style="stroke-width:0.999729">
       <switch
-         id="switch712">
+         id="switch712"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3464,7 +3828,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text710">alu_mux_sel</text>
+           id="text710"
+           style="stroke-width:0.0355839">alu_mux_sel</text>
       </switch>
     </g>
     <path
@@ -3473,14 +3838,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path716" />
+       id="path716"
+       style="stroke-width:0.0355839" />
     <path
        d="m 623.63,834.52 -10.92,5.65 2.67,-5.54 -2.83,-5.46 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path718" />
+       id="path718"
+       style="stroke-width:0.0355839" />
     <rect
        x="540.75"
        y="806"
@@ -3489,12 +3856,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect720" />
+       id="rect720"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g726">
+       id="g726"
+       style="stroke-width:0.999729">
       <switch
-         id="switch724">
+         id="switch724"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3524,7 +3894,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text722">w_load</text>
+           id="text722"
+           style="stroke-width:0.0355839">w_load</text>
       </switch>
     </g>
     <path
@@ -3534,12 +3905,15 @@ Stack</xhtml:font>
        stroke-miterlimit="10"
        transform="rotate(180,702,520)"
        pointer-events="all"
-       id="path728" />
+       id="path728"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g734">
+       id="g734"
+       style="stroke-width:0.999729">
       <switch
-         id="switch732">
+         id="switch732"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3563,7 +3937,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text730">irsta_mux</text>
+           id="text730"
+           style="stroke-width:0.0355839">irsta_mux</text>
       </switch>
     </g>
     <path
@@ -3572,7 +3947,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path736" />
+       id="path736"
+       style="stroke-width:0.0355839" />
     <rect
        x="658"
        y="498"
@@ -3581,12 +3957,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect738" />
+       id="rect738"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g744">
+       id="g744"
+       style="stroke-width:0.999729">
       <switch
-         id="switch742">
+         id="switch742"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3610,7 +3989,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text740">1</text>
+           id="text740"
+           style="stroke-width:0.0355839">1</text>
       </switch>
     </g>
     <rect
@@ -3621,12 +4001,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect746" />
+       id="rect746"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g752">
+       id="g752"
+       style="stroke-width:0.999729">
       <switch
-         id="switch750">
+         id="switch750"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3650,7 +4033,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text748">0</text>
+           id="text748"
+           style="stroke-width:0.0355839">0</text>
       </switch>
     </g>
     <path
@@ -3659,7 +4043,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path754" />
+       id="path754"
+       style="stroke-width:0.0355839" />
     <rect
        x="706"
        y="538.66998"
@@ -3668,12 +4053,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect756" />
+       id="rect756"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g762">
+       id="g762"
+       style="stroke-width:0.999729">
       <switch
-         id="switch760">
+         id="switch760"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3697,7 +4085,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text758">8</text>
+           id="text758"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <path
@@ -3706,7 +4095,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path764" />
+       id="path764"
+       style="stroke-width:0.0355839" />
     <rect
        x="564"
        y="695"
@@ -3715,12 +4105,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect766" />
+       id="rect766"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g772">
+       id="g772"
+       style="stroke-width:0.999729">
       <switch
-         id="switch770">
+         id="switch770"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3744,7 +4137,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text768">12</text>
+           id="text768"
+           style="stroke-width:0.0355839">12</text>
       </switch>
     </g>
     <path
@@ -3753,7 +4147,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path774" />
+       id="path774"
+       style="stroke-width:0.0355839" />
     <rect
        x="732.5"
        y="618"
@@ -3762,12 +4157,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect776" />
+       id="rect776"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g782">
+       id="g782"
+       style="stroke-width:0.999729">
       <switch
-         id="switch780">
+         id="switch780"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3791,7 +4189,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text778">8</text>
+           id="text778"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <path
@@ -3800,7 +4199,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path784" />
+       id="path784"
+       style="stroke-width:0.0355839" />
     <rect
        x="621"
        y="625"
@@ -3809,12 +4209,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect786" />
+       id="rect786"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g792">
+       id="g792"
+       style="stroke-width:0.999729">
       <switch
-         id="switch790">
+         id="switch790"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3838,7 +4241,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text788">8</text>
+           id="text788"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <rect
@@ -3849,12 +4253,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect794" />
+       id="rect794"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g800">
+       id="g800"
+       style="stroke-width:0.999729">
       <switch
-         id="switch798">
+         id="switch798"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3878,7 +4285,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text796">ir_bus</text>
+           id="text796"
+           style="stroke-width:0.0355839">ir_bus</text>
       </switch>
     </g>
     <rect
@@ -3889,12 +4297,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect802" />
+       id="rect802"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g808">
+       id="g808"
+       style="stroke-width:0.999729">
       <switch
-         id="switch806">
+         id="switch806"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3918,7 +4329,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text804">ir_bus</text>
+           id="text804"
+           style="stroke-width:0.0355839">ir_bus</text>
       </switch>
     </g>
     <rect
@@ -3929,12 +4341,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect810" />
+       id="rect810"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g816">
+       id="g816"
+       style="stroke-width:0.999729">
       <switch
-         id="switch814">
+         id="switch814"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3958,7 +4373,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text812">status_bus</text>
+           id="text812"
+           style="stroke-width:0.0355839">status_bus</text>
       </switch>
     </g>
     <rect
@@ -3969,12 +4385,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect818" />
+       id="rect818"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g824">
+       id="g824"
+       style="stroke-width:0.999729">
       <switch
-         id="switch822">
+         id="switch822"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -3998,7 +4417,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text820">ram_bus</text>
+           id="text820"
+           style="stroke-width:0.0355839">ram_bus</text>
       </switch>
     </g>
     <path
@@ -4007,14 +4427,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path826" />
+       id="path826"
+       style="stroke-width:0.0355839" />
     <path
        d="m 649.88,522.19 -10.92,5.65 2.67,-5.54 -2.83,-5.46 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path828" />
+       id="path828"
+       style="stroke-width:0.0355839" />
     <rect
        x="518"
        y="505"
@@ -4023,12 +4445,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect830" />
+       id="rect830"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g836">
+       id="g836"
+       style="stroke-width:0.999729">
       <switch
-         id="switch834">
+         id="switch834"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4058,7 +4483,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text832">irsta_mux_sel</text>
+           id="text832"
+           style="stroke-width:0.0355839">irsta_mux_sel</text>
       </switch>
     </g>
     <rect
@@ -4069,12 +4495,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect838" />
+       id="rect838"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g844">
+       id="g844"
+       style="stroke-width:0.999729">
       <switch
-         id="switch842">
+         id="switch842"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4098,7 +4527,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text840">irsta_bus</text>
+           id="text840"
+           style="stroke-width:0.0355839">irsta_bus</text>
       </switch>
     </g>
     <rect
@@ -4109,12 +4539,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect846" />
+       id="rect846"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g852">
+       id="g852"
+       style="stroke-width:0.999729">
       <switch
-         id="switch850">
+         id="switch850"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4138,7 +4571,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text848">alu_in</text>
+           id="text848"
+           style="stroke-width:0.0355839">alu_in</text>
       </switch>
     </g>
     <rect
@@ -4149,12 +4583,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect854" />
+       id="rect854"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g860">
+       id="g860"
+       style="stroke-width:0.999729">
       <switch
-         id="switch858">
+         id="switch858"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4178,7 +4615,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text856">w_out</text>
+           id="text856"
+           style="stroke-width:0.0355839">w_out</text>
       </switch>
     </g>
     <rect
@@ -4189,12 +4627,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect862" />
+       id="rect862"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g868">
+       id="g868"
+       style="stroke-width:0.999729">
       <switch
-         id="switch866">
+         id="switch866"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4218,7 +4659,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text864">alu_bus</text>
+           id="text864"
+           style="stroke-width:0.0355839">alu_bus</text>
       </switch>
     </g>
     <path
@@ -4227,7 +4669,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path870" />
+       id="path870"
+       style="stroke-width:0.0355839" />
     <rect
        x="698"
        y="766"
@@ -4236,12 +4679,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect872" />
+       id="rect872"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g878">
+       id="g878"
+       style="stroke-width:0.999729">
       <switch
-         id="switch876">
+         id="switch876"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4265,7 +4711,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text874">8</text>
+           id="text874"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <path
@@ -4274,7 +4721,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path880" />
+       id="path880"
+       style="stroke-width:0.0355839" />
     <rect
        x="785"
        y="658"
@@ -4283,12 +4731,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect882" />
+       id="rect882"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g888">
+       id="g888"
+       style="stroke-width:0.999729">
       <switch
-         id="switch886">
+         id="switch886"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4312,7 +4763,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text884">3</text>
+           id="text884"
+           style="stroke-width:0.0355839">3</text>
       </switch>
     </g>
     <rect
@@ -4323,12 +4775,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect890" />
+       id="rect890"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g896">
+       id="g896"
+       style="stroke-width:0.999729">
       <switch
-         id="switch894">
+         id="switch894"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4352,7 +4807,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text892">fdc, fc, fz</text>
+           id="text892"
+           style="stroke-width:0.0355839">fdc, fc, fz</text>
       </switch>
     </g>
     <path
@@ -4361,7 +4817,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path898" />
+       id="path898"
+       style="stroke-width:0.0355839" />
     <rect
        x="1103"
        y="193"
@@ -4370,12 +4827,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect900" />
+       id="rect900"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g906">
+       id="g906"
+       style="stroke-width:0.999729">
       <switch
-         id="switch904">
+         id="switch904"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4399,7 +4859,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text902">8</text>
+           id="text902"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <rect
@@ -4410,12 +4871,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect908" />
+       id="rect908"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g914">
+       id="g914"
+       style="stroke-width:0.999729">
       <switch
-         id="switch912">
+         id="switch912"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4439,7 +4903,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text910">alu_bus</text>
+           id="text910"
+           style="stroke-width:0.0355839">alu_bus</text>
       </switch>
     </g>
     <rect
@@ -4450,12 +4915,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect916" />
+       id="rect916"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g922">
+       id="g922"
+       style="stroke-width:0.999729">
       <switch
-         id="switch920">
+         id="switch920"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4479,7 +4947,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text918">alu_bus</text>
+           id="text918"
+           style="stroke-width:0.0355839">alu_bus</text>
       </switch>
     </g>
     <path
@@ -4488,7 +4957,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path924" />
+       id="path924"
+       style="stroke-width:0.0355839" />
     <rect
        x="1200"
        y="446"
@@ -4497,12 +4967,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect926" />
+       id="rect926"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g932">
+       id="g932"
+       style="stroke-width:0.999729">
       <switch
-         id="switch930">
+         id="switch930"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4526,7 +4999,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text928">8</text>
+           id="text928"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <rect
@@ -4537,12 +5011,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect934" />
+       id="rect934"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g940">
+       id="g940"
+       style="stroke-width:0.999729">
       <switch
-         id="switch938">
+         id="switch938"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4570,7 +5047,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text936">clk</text>
+           id="text936"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -4579,14 +5057,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path942" />
+       id="path942"
+       style="stroke-width:0.0355839" />
     <path
        d="m 776.12,823.26 11.03,-5.44 -2.78,5.48 2.72,5.52 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path944" />
+       id="path944"
+       style="stroke-width:0.0355839" />
     <rect
        x="809"
        y="830"
@@ -4595,12 +5075,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect946" />
+       id="rect946"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g952">
+       id="g952"
+       style="stroke-width:0.999729">
       <switch
-         id="switch950">
+         id="switch950"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4628,7 +5111,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text948">rst</text>
+           id="text948"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -4637,28 +5121,32 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path954" />
+       id="path954"
+       style="stroke-width:0.0355839" />
     <path
        d="m 776.12,847.76 11.05,-5.39 -2.8,5.47 2.69,5.53 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path956" />
+       id="path956"
+       style="stroke-width:0.0355839" />
     <path
        d="m 225.86,730.22 28.77,-0.17"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path958" />
+       id="path958"
+       style="stroke-width:0.0355839" />
     <path
        d="m 262.88,730.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path960" />
+       id="path960"
+       style="stroke-width:0.0355839" />
     <rect
        x="257"
        y="715"
@@ -4667,12 +5155,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect962" />
+       id="rect962"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g968">
+       id="g968"
+       style="stroke-width:0.999729">
       <switch
-         id="switch966">
+         id="switch966"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4702,7 +5193,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text964">irsta_mux_sel</text>
+           id="text964"
+           style="stroke-width:0.0355839">irsta_mux_sel</text>
       </switch>
     </g>
     <path
@@ -4711,14 +5203,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path970" />
+       id="path970"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.27,706.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path972" />
+       id="path972"
+       style="stroke-width:0.0355839" />
     <rect
        x="256.39001"
        y="691"
@@ -4727,12 +5221,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect974" />
+       id="rect974"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g980">
+       id="g980"
+       style="stroke-width:0.999729">
       <switch
-         id="switch978">
+         id="switch978"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4762,7 +5259,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text976">alu_mux_sel</text>
+           id="text976"
+           style="stroke-width:0.0355839">alu_mux_sel</text>
       </switch>
     </g>
     <path
@@ -4771,14 +5269,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path982" />
+       id="path982"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.27,682.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path984" />
+       id="path984"
+       style="stroke-width:0.0355839" />
     <rect
        x="256.39001"
        y="667"
@@ -4787,12 +5287,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect986" />
+       id="rect986"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g992">
+       id="g992"
+       style="stroke-width:0.999729">
       <switch
-         id="switch990">
+         id="switch990"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4822,7 +5325,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text988">w_load</text>
+           id="text988"
+           style="stroke-width:0.0355839">w_load</text>
       </switch>
     </g>
     <path
@@ -4831,7 +5335,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path994" />
+       id="path994"
+       style="stroke-width:0.0355839" />
     <rect
        x="883.25"
        y="193.25"
@@ -4840,12 +5345,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect996" />
+       id="rect996"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1002">
+       id="g1002"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1000">
+         id="switch1000"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4869,7 +5377,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text998">8</text>
+           id="text998"
+           style="stroke-width:0.0355839">8</text>
       </switch>
     </g>
     <rect
@@ -4880,12 +5389,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1004" />
+       id="rect1004"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1010">
+       id="g1010"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1008">
+         id="switch1008"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4909,7 +5421,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1006">ram_bus</text>
+           id="text1006"
+           style="stroke-width:0.0355839">ram_bus</text>
       </switch>
     </g>
     <rect
@@ -4920,12 +5433,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1012" />
+       id="rect1012"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1018">
+       id="g1018"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1016">
+         id="switch1016"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -4955,7 +5471,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1014">addr_mux_sel</text>
+           id="text1014"
+           style="stroke-width:0.0355839">addr_mux_sel</text>
       </switch>
     </g>
     <path
@@ -4964,14 +5481,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1020" />
+       id="path1020"
+       style="stroke-width:0.0355839" />
     <path
        d="m 943.88,352.19 -10.92,5.65 2.67,-5.54 -2.83,-5.46 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1022" />
+       id="path1022"
+       style="stroke-width:0.0355839" />
     <rect
        x="1002"
        y="255"
@@ -4980,12 +5499,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1024" />
+       id="rect1024"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1030">
+       id="g1030"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1028">
+         id="switch1028"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5009,7 +5531,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1026">addr</text>
+           id="text1026"
+           style="stroke-width:0.0355839">addr</text>
       </switch>
     </g>
     <rect
@@ -5020,12 +5543,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1032" />
+       id="rect1032"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1038">
+       id="g1038"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1036">
+         id="switch1036"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5053,7 +5579,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1034">clk</text>
+           id="text1034"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -5062,28 +5589,32 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1040" />
+       id="path1040"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1043.91,157.32 -5.47,-11.02 5.49,2.77 5.51,-2.74 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1042" />
+       id="path1042"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1007,121.5 v 16 10 1.63"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1044" />
+       id="path1044"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1007,157.38 -5.5,-11 5.5,2.75 5.5,-2.75 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1046" />
+       id="path1046"
+       style="stroke-width:0.0355839" />
     <rect
        x="936"
        y="97.5"
@@ -5092,12 +5623,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1048" />
+       id="rect1048"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1054">
+       id="g1054"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1052">
+         id="switch1052"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5125,7 +5659,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1050">we</text>
+           id="text1050"
+           style="stroke-width:0.0355839">we</text>
       </switch>
     </g>
     <path
@@ -5134,14 +5669,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1056" />
+       id="path1056"
+       style="stroke-width:0.0355839" />
     <path
        d="m 958.01,157.38 -5.47,-11.02 5.49,2.77 5.51,-2.74 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1058" />
+       id="path1058"
+       style="stroke-width:0.0355839" />
     <rect
        x="989"
        y="95.5"
@@ -5150,12 +5687,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1060" />
+       id="rect1060"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1066">
+       id="g1066"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1064">
+         id="switch1064"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5183,7 +5723,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1062">rst</text>
+           id="text1062"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -5192,14 +5733,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1068" />
+       id="path1068"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.88,578.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1070" />
+       id="path1070"
+       style="stroke-width:0.0355839" />
     <rect
        x="257"
        y="562"
@@ -5208,12 +5751,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1072" />
+       id="rect1072"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1078">
+       id="g1078"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1076">
+         id="switch1076"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5243,7 +5789,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1074">we</text>
+           id="text1074"
+           style="stroke-width:0.0355839">we</text>
       </switch>
     </g>
     <rect
@@ -5254,12 +5801,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1080" />
+       id="rect1080"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1086">
+       id="g1086"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1084">
+         id="switch1084"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5283,7 +5833,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1082">5</text>
+           id="text1082"
+           style="stroke-width:0.0355839">5</text>
       </switch>
     </g>
     <path
@@ -5292,7 +5843,8 @@ Stack</xhtml:font>
        stroke="#000000"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1088" />
+       id="path1088"
+       style="stroke-width:0.0355839" />
     <rect
        x="1014.75"
        y="445"
@@ -5301,12 +5853,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1090" />
+       id="rect1090"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1096">
+       id="g1096"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1094">
+         id="switch1094"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5330,7 +5885,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1092">fsr_bus</text>
+           id="text1092"
+           style="stroke-width:0.0355839">fsr_bus</text>
       </switch>
     </g>
     <rect
@@ -5341,12 +5897,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1098" />
+       id="rect1098"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1104">
+       id="g1104"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1102">
+         id="switch1102"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5370,7 +5929,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1100">1</text>
+           id="text1100"
+           style="stroke-width:0.0355839">1</text>
       </switch>
     </g>
     <rect
@@ -5381,12 +5941,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1106" />
+       id="rect1106"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1112">
+       id="g1112"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1110">
+         id="switch1110"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5410,7 +5973,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1108">0</text>
+           id="text1108"
+           style="stroke-width:0.0355839">0</text>
       </switch>
     </g>
     <rect
@@ -5421,12 +5985,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1114" />
+       id="rect1114"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1120">
+       id="g1120"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1118">
+         id="switch1118"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5454,7 +6021,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1116">clk</text>
+           id="text1116"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -5463,14 +6031,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1122" />
+       id="path1122"
+       style="stroke-width:0.0355839" />
     <path
        d="m 966.37,672.59 11.03,-5.44 -2.78,5.48 2.72,5.52 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1124" />
+       id="path1124"
+       style="stroke-width:0.0355839" />
     <rect
        x="996.25"
        y="675.33002"
@@ -5479,12 +6049,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1126" />
+       id="rect1126"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1132">
+       id="g1132"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1130">
+         id="switch1130"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5512,7 +6085,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1128">rst</text>
+           id="text1128"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -5521,14 +6095,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1134" />
+       id="path1134"
+       style="stroke-width:0.0355839" />
     <path
        d="m 966.37,693.09 11.06,-5.38 -2.81,5.47 2.69,5.53 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1136" />
+       id="path1136"
+       style="stroke-width:0.0355839" />
     <rect
        x="998.25"
        y="695"
@@ -5537,12 +6113,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1138" />
+       id="rect1138"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1144">
+       id="g1144"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1142">
+         id="switch1142"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5572,7 +6151,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1140">s_load</text>
+           id="text1140"
+           style="stroke-width:0.0355839">s_load</text>
       </switch>
     </g>
     <path
@@ -5581,14 +6161,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1146" />
+       id="path1146"
+       style="stroke-width:0.0355839" />
     <path
        d="m 262.27,660.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1148" />
+       id="path1148"
+       style="stroke-width:0.0355839" />
     <rect
        x="259.39001"
        y="644"
@@ -5597,12 +6179,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1150" />
+       id="rect1150"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1156">
+       id="g1156"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1154">
+         id="switch1154"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5632,7 +6217,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1152">s_load</text>
+           id="text1152"
+           style="stroke-width:0.0355839">s_load</text>
       </switch>
     </g>
     <path
@@ -5641,14 +6227,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1158" />
+       id="path1158"
+       style="stroke-width:0.0355839" />
     <path
        d="m 260.84,605.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1160" />
+       id="path1160"
+       style="stroke-width:0.0355839" />
     <rect
        x="255.96001"
        y="590"
@@ -5657,12 +6245,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1162" />
+       id="rect1162"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1168">
+       id="g1168"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1166">
+         id="switch1166"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5692,7 +6283,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1164">addr_mux_sel</text>
+           id="text1164"
+           style="stroke-width:0.0355839">addr_mux_sel</text>
       </switch>
     </g>
     <path
@@ -5701,14 +6293,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1170" />
+       id="path1170"
+       style="stroke-width:0.0355839" />
     <path
        d="m 966.37,711.09 11.05,-5.39 -2.8,5.47 2.69,5.53 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1172" />
+       id="path1172"
+       style="stroke-width:0.0355839" />
     <rect
        x="1091"
        y="349"
@@ -5717,12 +6311,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1174" />
+       id="rect1174"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1180">
+       id="g1180"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1178">
+         id="switch1178"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5752,7 +6349,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1176">fsr_load</text>
+           id="text1176"
+           style="stroke-width:0.0355839">fsr_load</text>
       </switch>
     </g>
     <path
@@ -5761,14 +6359,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1182" />
+       id="path1182"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1125,403.88 -5.55,-10.97 5.51,2.72 5.49,-2.77 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1184" />
+       id="path1184"
+       style="stroke-width:0.0355839" />
     <rect
        x="1082"
        y="508.67001"
@@ -5777,12 +6377,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1186" />
+       id="rect1186"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1192">
+       id="g1192"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1190">
+         id="switch1190"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5812,7 +6415,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1188">rst</text>
+           id="text1188"
+           style="stroke-width:0.0355839">rst</text>
       </switch>
     </g>
     <path
@@ -5821,14 +6425,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1194" />
+       id="path1194"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1101.35,482.32 5.38,11.06 -5.47,-2.81 -5.53,2.69 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1196" />
+       id="path1196"
+       style="stroke-width:0.0355839" />
     <rect
        x="1131"
        y="508.67001"
@@ -5837,12 +6443,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1198" />
+       id="rect1198"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1204">
+       id="g1204"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1202">
+         id="switch1202"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5872,7 +6481,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1200">clk</text>
+           id="text1200"
+           style="stroke-width:0.0355839">clk</text>
       </switch>
     </g>
     <path
@@ -5881,28 +6491,32 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1206" />
+       id="path1206"
+       style="stroke-width:0.0355839" />
     <path
        d="m 1150.35,482.32 5.38,11.06 -5.47,-2.81 -5.53,2.69 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1208" />
+       id="path1208"
+       style="stroke-width:0.0355839" />
     <path
        d="m 224.25,632.22 28.77,-0.17"
        fill="none"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1210" />
+       id="path1210"
+       style="stroke-width:0.0355839" />
     <path
        d="m 261.27,632.01 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1212" />
+       id="path1212"
+       style="stroke-width:0.0355839" />
     <rect
        x="258.39001"
        y="616"
@@ -5911,12 +6525,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1214" />
+       id="rect1214"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1220">
+       id="g1220"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1218">
+         id="switch1218"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -5946,7 +6563,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1216">fsr_load</text>
+           id="text1216"
+           style="stroke-width:0.0355839">fsr_load</text>
       </switch>
     </g>
     <path
@@ -5955,14 +6573,16 @@ Stack</xhtml:font>
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="stroke"
-       id="path1222" />
+       id="path1222"
+       style="stroke-width:0.0355839" />
     <path
        d="m 94.88,855.42 -10.97,5.56 2.72,-5.52 -2.78,-5.48 z"
        fill="#006eaf"
        stroke="#006eaf"
        stroke-miterlimit="10"
        pointer-events="all"
-       id="path1224" />
+       id="path1224"
+       style="stroke-width:0.0355839" />
     <rect
        x="29"
        y="841"
@@ -5971,12 +6591,15 @@ Stack</xhtml:font>
        fill="none"
        stroke="none"
        pointer-events="all"
-       id="rect1226" />
+       id="rect1226"
+       style="stroke-width:0.0355839" />
     <g
        transform="translate(-0.5,-0.5)"
-       id="g1232">
+       id="g1232"
+       style="stroke-width:0.999729">
       <switch
-         id="switch1230">
+         id="switch1230"
+         style="stroke-width:0.999729">
         <foreignObject
            style="overflow: visible; text-align: left;"
            pointer-events="none"
@@ -6004,7 +6627,8 @@ Stack</xhtml:font>
            font-family="Helvetica"
            font-size="12px"
            text-anchor="middle"
-           id="text1228">fz</text>
+           id="text1228"
+           style="stroke-width:0.0355839">fz</text>
       </switch>
     </g>
   </g>
@@ -6065,5 +6689,20 @@ Stack</xhtml:font>
      sodipodi:nodetypes="ccc"
      id="path1452-7"
      d="m 734.69546,536.34521 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
+  <path
+     sodipodi:nodetypes="ccc"
+     id="path634"
+     d="m 492.55488,275.23317 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+     d="m 168.87977,204.94543 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
+     id="path636"
+     sodipodi:nodetypes="ccc" />
+  <path
+     sodipodi:nodetypes="ccc"
+     id="path1452-77"
+     d="m 937.79546,702.56348 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
      style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
 </svg>

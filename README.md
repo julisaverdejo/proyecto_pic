@@ -46,6 +46,7 @@ En la Tabla 1 se muestran las pequeñas variaciones que hay en los distintos PIC
 * Comparador opcional.
 
 ![especificacones|350](imagenes/A1_especificaciones.png)
+
 **Tabla 1: Comparación de especificaciones, extraída de [1]**.
 
 ### 1.4. Diagrama de pines
@@ -53,6 +54,7 @@ En la Tabla 1 se muestran las pequeñas variaciones que hay en los distintos PIC
 En la Figura 1 se muestra el diagrama de pines PDIP (Plastic Dual In-Line Package) del PIC. La única variación que hay entre los diferentes PICs de esta familia es que los pines 3,4,5 se pueden configurar como comparador si se tiene disponible, de otra manera se utilizan como entradas o salidas. Se tienen dos pines para la alimentación, 2 y 7 respectivamente y los pines 1 y 6 no se utilizan. El pin 8 se puede configurar únicamente como entrada de ser necesario o funciona normalmente como reset.
 
 ![pinout|350](imagenes/A0_pinout.png)
+
 **Figura 1: Pinout, extraído de [1]**.
 
 ### 1.5. Aplicaciones
@@ -62,6 +64,7 @@ Los dispositivos PIC10F200 se adaptan a aplicaciones que van desde dispositivos 
 ### 1.6. Data path
 
 ![datapath|350](imagenes/A2_datapath.png)
+
 **Figura 2: Data Path, extraído de [1]**.
 
 ### 1.7. Organización de la memoria de datos
@@ -76,12 +79,15 @@ La memoria de datos esta organizada en el mapa de registros de la Figura 3. Las 
 * **OSCCAL:** Registro de calibración del oscilador. Es utilizado para calibrar la precisión interna del oscilador de 4 MHz, Contiene 7 bits de calibración. El valor de calibración debe leerse antes de borrar el dispositivo para que pueda programarse correctamente posteriormente.
 *  **GPIO:** Solo los últimos 4 bits de este registro se utilizan. GP0, GP1,GP2 se pueden configurar como estradas o salidas utilizando el registro TRIS (Tristate register), GP3 puede configurarse solo como entrada. El registro GPIO nos permite leerlo para conocer el estado de las entradas de los pines o modificarlo para poner a 1 o 0 los pines configurados como salida.
 * **CMCONC0:** Este registro controla la operación del comparador.
-![register_file|350](A4_register_file_map.png)
+
+![register_file|350](imagenes/A4_register_file_map.png)
+
 **Figura 3: Mapa de registros de la memoria de datos, extraído de [1].**
 
 ### 1.8. Memoria del programa
 
 ![program_memory|350](imagenes/A3_program_memory_map.png)
+
 **Figura 4: Memoria del programa, extraído de [1].**
 
 ### 1.9 Set de instrucciones
@@ -95,19 +101,24 @@ Las instrucciones del PIC se dividen en tres categorías básicas:
 Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especifica el tipo de instrucción y un **operando**.
 
 ![instruction_format|350](imagenes/A5_instruction_format.png)
+
 **Figura 5: Mapa de registros de la memoria de datos, extraído del datasheet [1].**
 
 
 ![opcode|350](imagenes/A6_opcode_description.png)
+
 **Tabla 2: Descripción de campos de opcode, extraído del datasheet [1]**
 
 
 ## 3. Arquitectura básica
 
 ![datgapath_básico|350](imagenes/completo.drawio.svg)
+
 **Figura 6: Datapath de arquitectura básica**
 
 ## 4. Códigos
+
+### 4.1. Códigos principales
 
 1. [01_divisor_de_frecuencia](01_divisor_de_frecuencia.md)
 2. [02_ram](02_ram.md)
@@ -120,7 +131,12 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 9. [09_alu](09_alu.md)
 10. [10_stack](10_stack.md)
 11. [11_program_memory](11_program_memory.md)
+12. [12_status_reg](12_status_reg.md)
 
+### 4.2 Mejoras de códigos a futuro
+
+1. Parametrización de multiplexores
+2. Parametrización de registros.
 
 ## 5. Implementación en FPGA
 
@@ -152,6 +168,7 @@ set_property -dict { PACKAGE_PIN U16   IOSTANDARD LVCMOS33 } [get_ports {slow_cl
 5. **PLD:** Programable Logic Devices.
 
 ## 7. Conclusiones
+- Julisa Verdejo Palacios
 - 
 
 ## 8. Referencias
