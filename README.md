@@ -6,6 +6,34 @@ Autores:
 3. Oscar Iván Ramírez Medina
 4. Eduardo Juárez Mendoza
 
+## 0. Plan de trabajo
+
+```mermaid
+gantt
+	title Diagrama de trabajo
+    %% this is a comment
+    %%dateFormat  YY-MM-DD
+    section julisa
+    Investigación    : task_j1, 2022-10-26, 2d
+    Another task     : task_j2, after task_j1, 2d
+    Another task     : task_j3, after task_j2, 2d
+    
+	section david
+	Investigación    : task_j1, 2022-10-26, 2d
+    Another task     : task_j2, after task_j1, 2d
+    Another task     : task_j3, after task_j2, 2d
+	
+	section oscar
+	Investigación    : task_j1, 2022-10-26, 2d
+    Another task     : task_j2, after task_j1, 2d
+    Another task     : task_j3, after task_j2, 2d
+    
+	section eduardo
+	Investigación    : task_j1, 2022-10-26, 2d
+    Another task     : task_j2, after task_j1, 2d
+    Another task     : task_j3, after task_j2, 2d
+```
+
 ## 1. Características del PIC
 
 El PIC10F200 es un dispositivo de bajo costo, alto rendimiento, de 8 bits, con memoria Flash basada en CMOS desarrollado por Microchip Technology. Este microcontrolador emplea una arquitectura **RISC** (Reduce Instruction Set Computing). El conjunto de instrucciones es fácil de usar y fácil de recordar lo cual reduce significativamente el tiempo de desarrollo.
@@ -135,6 +163,9 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 13. [13_addres_mux](13_addres_mux.md)
 14. [14_fsr](14_fsr.md)
 15. [15_control_unit](15_control_unit.md)
+16. 16_sistema_completo
+
+[Link](https://www.edaplayground.com/x/HHGa) a implementación en EDA.
 
 ### 4.2 Mejoras de códigos a futuro
 

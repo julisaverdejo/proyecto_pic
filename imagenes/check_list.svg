@@ -44,9 +44,9 @@
      inkscape:window-height="1001"
      id="namedview1246"
      showgrid="false"
-     inkscape:zoom="1.2936927"
-     inkscape:cx="859.38167"
-     inkscape:cy="349.60771"
+     inkscape:zoom="0.91477888"
+     inkscape:cx="655.8205"
+     inkscape:cy="404.35534"
      inkscape:window-x="-9"
      inkscape:window-y="1051"
      inkscape:window-maximized="1"
@@ -6705,4 +6705,19 @@ Stack</xhtml:font>
      id="path1452-77"
      d="m 937.79546,702.56348 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
      style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
+  <path
+     sodipodi:nodetypes="ccc"
+     id="path2073-4"
+     d="m 1032.8721,348.53813 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+     d="m 1157.3221,452.1176 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
+     id="path2073-4-3"
+     sodipodi:nodetypes="ccc" />
+  <path
+     style="font-variation-settings:normal;opacity:1;vector-effect:none;fill:none;fill-opacity:1;stroke:#00ff00;stroke-width:4;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-dashoffset:0;stroke-opacity:1;stop-color:#000000;stop-opacity:1"
+     d="m 192.64169,599.75699 c 3.339,2.90608 2.2815,4.96256 3.3672,7.45941 2.6214,-6.01628 0.7375,-6.34424 10.3883,-21.23561"
+     id="path1452-77-3"
+     sodipodi:nodetypes="ccc" />
 </svg>
