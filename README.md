@@ -47,7 +47,7 @@ Estos dispositivos utilizan una arquitectura **Harvard** en donde el acceso al p
 * Las instrucciones son de 12 bits de ancho.
 * Cuenta con un stack en hardware de 2 niveles de profundidad.
 * El ancho del data path es de 8 bits. 
-* 8 registros de de función especial en hardware.
+* 8 registros de función especial en hardware.
   * INDF, TMR0, PCL, STATUS, FSR, OSCCAL, GPIO, CMCONC0
 * 16 registros de propósito general.
 * Velocidad de operación

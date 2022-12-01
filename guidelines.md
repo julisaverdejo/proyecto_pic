@@ -4,7 +4,7 @@
 
 ## 1. Reglas de sintaxis
 
-1. Utilizar la sintaxis de verilog de antes del 2001. Esto con el objetivo de poder instancias los módulos copiando y pegando la primera línea del módulo y únicamente modificando las señales a conveniencia.
+1. Utilizar la sintaxis de verilog de antes del 2001. Esto con el objetivo de poder instanciar los módulos copiando y pegando la primera línea del módulo y únicamente modificando las señales a conveniencia.
 2. Comentar donde inician las entradas y salidas y donde inicia la descripción del módulo.
 3. Cuando se generen registro de salida, utilizar un registro auxiliar en lugar de agregar la palabra reservada `reg` posterior a `output`.
 4. Utilizar 1 tabulador en lugar de espacios, en su defecto utilizar 4 espacios.
@@ -30,6 +30,3 @@
 | Señal de reset         | `rst`       |
 | Cualquier habilitación | `en`        |
 
-
-
-algo
