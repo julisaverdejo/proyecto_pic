@@ -1,8 +1,6 @@
 ## 13. Multiplexor selector de direcciones
 
-- **Descripción:** Multiplexor selector de direcciones
-
-- Esquemático
+- **Descripción:** Multiplexor selector de direcciones. Selecciona entre el [04_instruction_reg](04_instruction_reg.md) y el [14_fsr](14_fsr.md).
 
 - Código
 ```verilog
@@ -22,9 +20,34 @@ endmodule
 
  - Testbench
 ```verilog
-
+// Time Unit = 1ns, precision = 100ps = 1/10 ns
+`timescale 1 ns / 100 ps  
+module tb_mux; 
+	
+	// Aux signals for testbench
+	reg [4:0] mux_out;
+	reg [4:0] in0, in1;
+	reg sel;
+	
+	// Instantiation DUT (Device Under Test)
+	addr_mux DUT (in0, in1, sel,mux_out);
+	
+	// Time period = 20 * timescale = 20 * 1ns = 20ns
+	localparam period = 20;
+	
+	initial begin	
+		in0 = 4'h01;
+		in1 = 4'h02;
+		sel = 0;
+		#period;
+		
+		sel = 1;
+		#period; 
+		
+		sel = 0;
+		#period;
+	end
+endmodule
 ```
-
-- Simulación
 
 - [x] Sintesis

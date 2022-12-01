@@ -1,8 +1,6 @@
 ## 10. Módulo Stack
 
-- **Descripción:**  Módulo stack estructura LIFO
-
-- Esquemático
+- **Descripción:**  Módulo stack con estructura LIFO (Last In First Out).
 
 - Código
 ```verilog
@@ -36,12 +34,5 @@ module stack (clk, rst, stack_inc, stack_dec, stack_load, pc_out, stack_bus);
 	
 endmodule
 ```
-
- - Testbench
-```verilog
-
-```
-
-- Simulación
 
 - [x] Sintesis

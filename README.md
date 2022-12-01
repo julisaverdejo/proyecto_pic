@@ -10,13 +10,13 @@ Autores:
 
 ```mermaid
 gantt
-	title Diagrama de trabajo
-    %% this is a comment
+	title Diagrama de trabajo de proyecto_pic
+    %% Esto es un comentario
     %%dateFormat  YY-MM-DD
     section julisa
-    Investigación    : task_j1, 2022-10-26, 2d
-    Another task     : task_j2, after task_j1, 2d
-    Another task     : task_j3, after task_j2, 2d
+    Investigacion de microntroladores    : task_j1, 2022-10-26, 3d
+    Selección de microcontrolador       : task_j2, after task_j1, 1d
+    Busqueda de referncias     : task_j3, after task_j2, 2d
     
 	section david
 	Investigación    : task_j1, 2022-10-26, 2d
@@ -163,13 +163,13 @@ Cada instrucción del PIC se divide en dos partes, el **opcode**, el cual especi
 13. [13_addres_mux](13_addres_mux.md)
 14. [14_fsr](14_fsr.md)
 15. [15_control_unit](15_control_unit.md)
-16. 16_sistema_completo
+16. [16_top](16_top.md)
 
 [Link](https://www.edaplayground.com/x/HHGa) a implementación en EDA.
 
 ### 4.2 Mejoras de códigos a futuro
 
-1. Parametrización de multiplexores
+1. [Parametrización de multiplexores](y1_parametrizaciones_multiplexores.md).
 2. Parametrización de registros.
 
 ## 5. Implementación en FPGA

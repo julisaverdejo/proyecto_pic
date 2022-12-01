@@ -15,6 +15,8 @@ En general fue todo un reto comprender la rutina de ejecución de cada una de la
 
 En general, aunque el PIC10 es un procesador sencillo, contiene una buena cantidad de bloques lógicos y secuenciales con diversas señales de control. Para este tipo de proyectos se requiere de una muy buena organización como equipo a la hora de repartir los bloques y además es necesario tener paciencia a la hora de programar y unir los bloques.
 
-Al proyecto aporte la programación de diversos bloques de programación y además me encargue de la mayor parte de la unión de los bloques lógicos en EDA playground y la programación de la unidad de control.  En cuanto a aportes a otros equipos, apoye a mis compañeros Jomahi y Pedro en ciertos bloques de su procesador PIC16F84A y a mi compañero Sergio en la comprensión del funcionamiento de la ALU de su procesador.
+Al proyecto aporte la programación de diversos bloques de programación y además me encargue de la unión de los bloques lógicos en EDA playground y la programación de la unidad de control.
+
+Apoye a mis compañeros Jomahi y Pedro en ciertos bloques de su procesador PIC16F84A y a mi compañero Sergio en la comprensión del funcionamiento de la ALU de su procesador.
 
 Este tipo de proyectos permiten mejorar las habilidades de programación en cierto lenguaje y la lógica para el desarrollo e implementación de un sistema, quizá en futuros proyectos en algún trabajo sea necesario elaborar algún sistema digital en Verilog y con los conocimientos adquiridos durante el curso tendré las herramientas para poder abordarlo y realizarlo.

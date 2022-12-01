@@ -36,7 +36,7 @@ module tb_mux;
 	localparam period = 20;
 	
 	initial begin	
-		in0 = 8'h01;
+		in0 = 9'h01;
 		in1 = 8'h02;
 		sel = 0;
 		#period;

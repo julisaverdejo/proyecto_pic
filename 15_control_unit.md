@@ -1,12 +1,9 @@
 ## 15. Unidad de control
 
-- **Descripción:** Unidad de control
-
-- Esquemático
+- **Descripción:** Unidad de control, maquina de estado que contrala todas las señales para generar el datapath necesario para el correcto funcionamiento.
 
 - Código
 ```verilog
-// Módulo controlador. 
 module controlador(clk,rst,ir_bus,fz,pc_mux_sel,pc_inc,pc_load,ir_load,stack_inc,stack_dec,stack_load,irsta_mux_sel,alu_mux_sel,w_load,s_load,addr_mux_sel,we,fsr_load);
 	// I/O declaration
 	input clk;
@@ -298,11 +295,4 @@ module controlador(clk,rst,ir_bus,fz,pc_mux_sel,pc_inc,pc_load,ir_load,stack_inc
 endmodule
 ```
 
- - Testbench
-```verilog
-
-```
-
-- Simulación
-
-- [x] Sintesis
+- [ ] Sintesis

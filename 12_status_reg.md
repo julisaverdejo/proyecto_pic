@@ -1,8 +1,6 @@
 ## 12. Status Register
 
-- **Descripción:** Status Register
-
-- Esquemático
+- **Descripción:** Status Register, guarda los valores de las banderas internas del PIC.
 
 - Código
 ```verilog
@@ -38,12 +36,5 @@ module status_reg(clk, rst, s_load, fc, fdc, fz, status_bus);
 	
 endmodule
 ```
-
- - Testbench
-```verilog
-
-```
-
-- Simulación
 
 - [x] Sintesis

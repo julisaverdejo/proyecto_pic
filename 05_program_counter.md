@@ -26,9 +26,4 @@ module pc (clk, rst, pc_inc, pc_load, pc_mux_in, pc_out);
 endmodule 
 ```
 
- - Testbench
-```verilog
-
-```
-
 - [x] Sintesis

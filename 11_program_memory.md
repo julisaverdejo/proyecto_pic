@@ -1,8 +1,6 @@
 ## 11. Program Memory
 
-- **Descripción:** Memoria del programa
-
-- Esquemático
+- **Descripción:** Memoria del programa, contienen las instrucciones a ejecutar.
 
 - Código
 ```verilog
@@ -28,11 +26,4 @@ module program_memory(pc_out, program_bus);
 endmodule
 ```
 
- - Testbench
-```verilog
-
-```
-
-- Simulación
-
-- [x] Sintesis
+- [ ] Sintesis
