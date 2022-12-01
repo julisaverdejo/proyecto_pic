@@ -310,7 +310,7 @@ El primer reto fue seleccionar un microcontrolador en el cual basar nuestro proy
 
 Se decidió utilizar el PIC10F200, principalmente porque es uno de los microcontroladores que más documentación tiene, esto permitio tener un buen punto de partida, no obstante es importate ser crítico y no perder el enfoque ya que a pesar de ser el mismo microcontrolador, la descripción del código por diferentes autores pude ser tanto del estilo jerarquico y bien estructurado como totalmente caótico.
 
-Entender claramente como funcionaban los bloques del datapath nos permitio abstraer los bloques absolutamente escenciales para poder computar las instrucciones básicas.
+Entender claramente como funcionaban los bloques del datapath nos permitio abstraer los bloques absolutamente esenciales para poder computar las instrucciones básicas.
 
 A manera de resumen de este proyecto logramos aprender el uso de Verilog y la importancia que este lenguaje de descripción de hardware nos brinda. La importancia de hacer pruebas (testbench) a nuestros códigos y lo fundamental del trabajo en equipo.
 
